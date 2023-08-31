@@ -27,4 +27,5 @@ const PokeCard: FC<Props> = ({ pokemon }) => {
     </CardStyled>
   );
 };
+
 export default PokeCard;
