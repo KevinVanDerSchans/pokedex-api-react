@@ -17,18 +17,13 @@ const usePokemonDetail = (pokemonRef: string | number | undefined) => {
     getPokemonDetail(pokemonRef)
       .then((data) => {
         setPokemon(data);
-        setIsFulfilled(true);
-      })
-      .catch(() => {
-        setPokemon(undefined);
-        setIsFulfilled(true);
       })
       .finally(() => {
+        setIsFulfilled(true);
         setLoading(false);
       });
   }, [pokemonRef]);
 
   return { loading, pokemon, isFulfilled };
 };
-
 export default usePokemonDetail;
