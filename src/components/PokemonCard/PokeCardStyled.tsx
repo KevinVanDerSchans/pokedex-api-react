@@ -10,12 +10,21 @@ export const CardStyled = styled.article<Props>`
   padding: 8px;
   width: 250px;
   height: 300px;
-  background: rgba(255, 255, 255, 0.35);
-  box-shadow: 0 5px 18px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(235, 235, 235, 0.35);
+  box-shadow: 0 5px 18px 0 rgba(8, 8, 12, 0.50);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+
+    &:hover {
+      background-color: rgba(116, 114, 114, 0.35);
+    }
+
+  article:hover {
+
+  }
+
   .pokemon-info {
     display: flex;
     width: 100%;
@@ -40,6 +49,7 @@ export const CardStyled = styled.article<Props>`
     display: flex;
     align-items: center;
   }
+
   @media (max-width: 769px) {
     width: 170px;
     height: 250px;

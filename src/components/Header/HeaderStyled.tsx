@@ -1,5 +1,15 @@
 import styled from "styled-components"
 
 export const HeaderStyled = styled.header`
-  position: relative;
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  background: linear-gradient(to top, #a52121, #7e0606);
+
+  .pokemon-logo {
+    width: 24em;
+  }
 `
