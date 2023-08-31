@@ -1,15 +1,18 @@
-import { MouseEventHandler, FC } from 'react'
+import { MouseEventHandler, FC } from 'react';
 
 interface ButtonProps {
-  onClick?: MouseEventHandler,
-  children: any,
-  disabled: boolean,
-  className?: string,
-  dataTestId: string,
-};
-
+  onClick?: MouseEventHandler;
+  children: any;
+  disabled: boolean;
+  className?: string;
+  dataTestId?: string;
+}
 const PaginationBtn: FC<ButtonProps> = ({
-  onClick, children, disabled, className, dataTestId
+  onClick,
+  children,
+  disabled,
+  className,
+  dataTestId,
 }) => (
   <li>
     <button

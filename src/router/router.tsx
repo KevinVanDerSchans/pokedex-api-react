@@ -1,8 +1,8 @@
-import { createBrowserRouter } from 'react-router-dom'
-import MainLayout from '../layout/MainLayout';
-import HomePage from '../pages/HomePage/HomePage';
+import { createBrowserRouter } from 'react-router-dom';
+import Home from '../pages/HomePage/HomePage';
 import Detail from '../pages/Detail/Detail';
-import Filtered from ""
+import MainLayout from '../layout/MainLayout';
+import Filtered from '../pages/Filtered/Filtered';
 
 const router = createBrowserRouter([
   {
@@ -11,15 +11,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: '',
-        element: <HomePage />
+        element: <Home />,
       },
       {
         path: '/:id',
-        element: <Detail />
+        element: <Detail />,
       },
       {
         path: '/filter/:type',
-        element: <Filtered />
+        element: <Filtered />,
       },
     ],
   },
