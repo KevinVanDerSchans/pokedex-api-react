@@ -1,5 +1,5 @@
 import { Dispatch, FC, SetStateAction } from 'react'
-import PaginationBtn from '../PaginationBtn/PaginationBtn'
+import PaginationBtn from '../PaginationBtn/PaginationBtn';
 import { PaginationStyled } from './PaginationStyled'
 
 import {
