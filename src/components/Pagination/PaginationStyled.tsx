@@ -58,6 +58,7 @@ export const PaginationStyled = styled.section<StyledProps>`
     display: flex;
     align-items: center;
     font-size: 1.2rem;
+    margin-left: 0.8rem;
 
     label {
       display: flex;

@@ -2,7 +2,14 @@ import styled from 'styled-components';
 import { Props } from './PokeCardDetail';
 
 export const PokeCardDetailStyled = styled.article<Props>`
+
   display: flex;
+  position: fixed;
+  width: 700px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
