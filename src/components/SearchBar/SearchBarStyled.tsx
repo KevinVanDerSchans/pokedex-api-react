@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const SearchBarStyled = styled.section`
 
   display: flex;
+  width: 100%;
   justify-content: right;
   flex-direction: column;
   align-items: flex-end;
@@ -11,8 +12,6 @@ export const SearchBarStyled = styled.section`
   padding: 30px;
   gap: 1.4rem;
   color: #ede7e7;
-  background-color: #9e3e3e;
-  background: linear-gradient(to bottom, #a52121, #581a1a);
 
   .searchers-container {
     display: flex;
@@ -52,10 +51,6 @@ export const SearchBarStyled = styled.section`
     font-family: 'Pocket Monk';
   }
 
-
-
-
-
   label {
     display: flex;
     flex-direction: column;
@@ -65,8 +60,8 @@ export const SearchBarStyled = styled.section`
 
     .form-input-container {
       padding: 0.5rem 1rem;
-      background: rgba(255, 255, 255, 0.35);
-      box-shadow: 0 3px 15px 0 rgba(31, 38, 135, 0.37);
+      background-color: #424141;
+      box-shadow: 0 3px 15px 0 rgba(21, 21, 22, 0.37);
       border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.18);
     }
@@ -104,11 +99,12 @@ export const SearchBarStyled = styled.section`
       margin-right: 0.8rem;
       cursor: pointer;
     }
+
+    option {
+      background-color: #c80000;
+      color: #e0dcdc;
+    }
   }
-
-
-
-
 
 
   @media (max-width: 540px) {

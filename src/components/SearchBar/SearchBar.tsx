@@ -47,7 +47,13 @@ const SearchBar = () => {
         <form onSubmit={handleSearch}>
           <label>
             <div className="form-input-container">
-              <input type="text" className="search-text-placeholder" placeholder="Type here your Pokemon..." name="id" />
+              <input
+                type="text"
+                className="search-text-placeholder"
+                placeholder="Type here your Pokemon..."
+                name="id"
+                autoComplete='none'
+              />
               <button type="submit" data-testid="searchById" className='input-button-search'>
                   SEARCH
               </button>

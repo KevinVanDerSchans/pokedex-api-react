@@ -7,9 +7,30 @@ export const HeaderStyled = styled.header`
   justify-content: center;
   align-items: center;
   padding: 14px;
-  background: linear-gradient(to top, #a52121, #7e0606);
+  background-image: url('/pokeball-background.png');
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+
+  .header-container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .logo-container {
+    margin-top: 1rem;
+  }
 
   .pokemon-logo {
     width: 24em;
   }
+
+  .searcher-and-music-container {
+    position: relative;
+    z-index: 99;
+  }
+
+
 `
