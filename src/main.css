@@ -14,7 +14,6 @@
 html,
 body {
   font-family: 'Pocket Monk', Arial, sans-serif;
-  /* background: linear-gradient(to top, rgb(151, 146, 146), rgb(239, 209, 209)); */;
   background-color: aliceblue;
   overflow-x: hidden;
   scroll-behavior: smooth ;
