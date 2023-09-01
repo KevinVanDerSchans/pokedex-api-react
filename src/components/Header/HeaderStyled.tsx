@@ -31,6 +31,4 @@ export const HeaderStyled = styled.header`
     position: relative;
     z-index: 99;
   }
-
-
 `

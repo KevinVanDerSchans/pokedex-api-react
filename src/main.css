@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Pocket Monk';
-  src: url('../public//fonts/pokemonFont.ttf') format('truetype');
+  font-family: 'Pocket Monk', Arial, sans-serif;
+  src: url('../fonts/pokemonFont.ttf') format('truetype');
 }
 
 *,
@@ -13,10 +13,10 @@
 
 html,
 body {
-  font-family: 'Pocket Monk';
-  background-color: #d6d3d3;
+  font-family: 'Pocket Monk', Arial, sans-serif;
+  background-color: aliceblue;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth ;
 }
 
 ::-webkit-scrollbar {

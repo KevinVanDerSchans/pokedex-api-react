@@ -10,6 +10,7 @@ interface Props {
 const CardListStyled = styled.ul`
   display: grid;
   padding: 2%;
+  padding-top: 10px;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   justify-items: center;
   gap: 1.5rem;
