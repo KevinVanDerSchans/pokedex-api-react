@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Pocket Monk';
+  src: url('../public//fonts/pokemonFont.ttf') format('truetype');
+}
+
 *,
 *::after,
 *::before {
@@ -8,8 +13,8 @@
 
 html,
 body {
-  font-family: Calibri, sans-serif;
-  background-color: #ebe6e6;
+  font-family: 'Pocket Monk';
+  background-color: #d6d3d3;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -74,8 +79,4 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-textarea {
-  font-family: inherit;
 }
