@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import { HeaderStyled } from "./HeaderStyled"
 import SearchBar from "../SearchBar/SearchBar";
 
-
 const Header = () => {
   return (
     <HeaderStyled>
