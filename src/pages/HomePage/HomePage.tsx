@@ -5,9 +5,11 @@ import PokeCardList from '../../components/PokeCardList/PokeCardList';
 import usePokemons from '../../hooks/usePokemons';
 import Header from '../../components/Header/Header';
 import styled from 'styled-components';
+import Footer from '../../components/Footer/Footer';
 
 const HomePageStyled = styled.section`
   margin: 0 auto;
+  overflow-y: hidden;
 `;
 
 const HomePage = () => {
@@ -29,6 +31,7 @@ const HomePage = () => {
         ) : (
           (pokemons && <PokeCardList pokemons={pokemons} />) || <ErrorMsg />
         )}
+        <Footer />
       </HomePageStyled>
     </>
   );

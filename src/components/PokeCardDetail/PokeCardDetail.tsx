@@ -42,6 +42,7 @@ const PokeCardDetail: FC<Props> = ({ pokemon }) => {
             ))}
           </div>
         </div>
+
       </PokeCardDetailStyled>
     </DetailStyled>
   );

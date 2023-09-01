@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Pocket Monk';
+  font-family: 'Pocket Monk', Arial, sans-serif;
   src: url('../fonts/pokemonFont.ttf') format('truetype');
 }
 
@@ -13,7 +13,7 @@
 
 html,
 body {
-  font-family: 'Pocket Monk';
+  font-family: 'Pocket Monk', Arial, sans-serif;
   /* background: linear-gradient(to top, rgb(151, 146, 146), rgb(239, 209, 209)); */;
   background-color: aliceblue;
   overflow-x: hidden;

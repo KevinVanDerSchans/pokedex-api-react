@@ -1,26 +1,26 @@
-import './Footer.css';
 import {
   AiFillLinkedin,
-
-   }
-from "react-icons/ai";
+} from "react-icons/ai";
+import { FooterStyled } from "./FooterStyled";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <FooterStyled>
+      <footer className="footer">
 
-      <div className="text-footer-container">
-        <span className="developer-name">Kevin Schans</span>
-      </div>
+        <div className="text-footer-container">
+          <span className="developer-name">Kevin Schans</span>
+        </div>
 
-      <div className="social-media-footer-container">
+        <div className="social-media-footer-container">
 
-        <a href="" target="_blank">
-          <AiFillLinkedin className="linkedin-logo"/>
-        </a>
+          <a href="" target="_blank">
+            <AiFillLinkedin className="linkedin-logo"/>
+          </a>
 
-      </div>
-    </footer>
+        </div>
+      </footer>
+    </FooterStyled>
   );
 };
 

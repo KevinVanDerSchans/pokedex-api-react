@@ -5,7 +5,8 @@ const ButtonToHomePageStyled = styled.div`
 
   .button-to-home-page {
     font-family: 'Pocket Monk';
-    background-color: #bcbcc3;
+    background-color: #424141;
+    color: #f4f1f1;
     font-size: 1.8rem;
     padding: 12px;
     border-radius: 8px;
@@ -14,9 +15,9 @@ const ButtonToHomePageStyled = styled.div`
   }
 
   .button-to-home-page:hover {
+    color: #151515;
     background-color: #98989a;
   }
-
 `
 
 const ButtonToHomePage = () => {
