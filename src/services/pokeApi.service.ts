@@ -9,7 +9,7 @@ import {
 } from '../models/pokemon.model'
 
 
-const BASE_URL = 'http://pokeapi.co/api/v2';
+const BASE_URL = 'https://pokeapi.co/api/v2';
 
 export const mapPokemonApiData = (pokemonInfo: PokemonResponse) => {
   const pokemon: Pokemon = {

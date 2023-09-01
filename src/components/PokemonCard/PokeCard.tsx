@@ -14,12 +14,14 @@ const PokeCard: FC<Props> = ({ pokemon }) => {
   return (
     <CardStyled pokemon={pokemon} className='pokemon-card'>
       <div className="pokemon-info">
-        <h2>{name}</h2>
-        <p data-testid="id">#{id.toString().padStart(4, '0')}</p>
+        <h2 className='pokemon-name'>{name}</h2>
+        <p className="pokemon-id" data-testid="id">#{id.toString().padStart(4, '0')}</p>
       </div>
+
       <Link to={`/${id}`}>
-        <img src={imgUrl} alt={name} />
+        <img className="pokemon-img" src={imgUrl} alt={name} />
       </Link>
+
       <div className="types">
         <PokeType type={type1} />
         <PokeType type={type2} />

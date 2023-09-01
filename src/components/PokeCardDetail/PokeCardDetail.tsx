@@ -14,26 +14,27 @@ const PokeCardDetail: FC<Props> = ({ pokemon }) => {
     <DetailStyled>
     <PokeCardDetailStyled pokemon={pokemon}>
       <div className="pokemon-info">
-        <h2>{name}</h2>
-        <p data-testid="idDetail">#{id.toString().padStart(4, '0')}</p>
+        <h2 className='pokemon-name'>{name}</h2>
+        <p className="pokemon-id" data-testid="idDetail">#{id.toString().padStart(4, '0')}</p>
       </div>
 
       <div className="pokemon-details">
-        <img src={imgUrl} alt={name} />
+        <img className="pokemon-img" src={imgUrl} alt={name} />
+
         <div>
           <div className="types">
             <PokeType type={type1} />
             <PokeType type={type2} />
           </div>
 
-          <p>
+          <p className='pokemon-stats'>
             Weight: <b>{size.weight}</b> kg
           </p>
-          <p>
+          <p className='pokemon-stats'>
             Height: <b>{size.height}</b> cm
           </p>
           {stats.map((s) => (
-            <p key={s.name + id}>
+            <p className='pokemon-stats' key={s.name + id}>
               {s.name} : <b>{s.value}</b>
             </p>
           ))}

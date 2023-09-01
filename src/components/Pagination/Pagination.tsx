@@ -27,7 +27,9 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           disabled={page === 0}
           dataTestId="Go to first page"
         >
-          <MdKeyboardDoubleArrowLeft />
+          <MdKeyboardDoubleArrowLeft
+            className="arrow-icon"
+          />
         </PaginationBtn>
         <PaginationBtn
           className="arrow"
@@ -35,7 +37,9 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           disabled={page === 0}
           dataTestId="Go to previous page"
         >
-          <MdKeyboardArrowLeft />
+          <MdKeyboardArrowLeft
+            className="arrow-icon"
+          />
         </PaginationBtn>
         {buttonNumbers.map((buttonNumber) =>
           buttonNumber >= 0 && buttonNumber <= maxPages ? (
@@ -59,7 +63,9 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           disabled={page === maxPages}
           dataTestId="Go to next page"
         >
-          <MdKeyboardArrowRight />
+          <MdKeyboardArrowRight
+            className="arrow-icon"
+          />
         </PaginationBtn>
         <PaginationBtn
           className="arrow"
@@ -67,13 +73,15 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           disabled={page === maxPages}
           dataTestId="Go to last page"
         >
-          <MdKeyboardDoubleArrowRight />
+          <MdKeyboardDoubleArrowRight
+            className="arrow-icon"
+          />
         </PaginationBtn>
       </ul>
 
       <div className="results">
         <label>
-          Results/page
+          Page results
           <select
             onChange={(e) => {
               setLimit(+e.currentTarget.value);
@@ -90,4 +98,5 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
     </PaginationStyled>
   );
 };
+
 export default Pagination;

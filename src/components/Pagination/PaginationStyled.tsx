@@ -9,45 +9,71 @@ export const PaginationStyled = styled.section<StyledProps>`
   display: flex;
   margin: 0 auto;
   width: 100%;
-  padding: 0 1.5rem;
+  padding: 0 2.2rem;
   align-items: center;
+  margin-top: 2rem;
+
   .buttons {
     width: fit-content;
     display: flex;
     margin: 0 auto;
-    padding: 20px;
+    padding: 24px;
+
+
     li {
       button {
         width: 34px;
         border: none;
-        border-radius: 6px;
-        padding: 10px;
+        border-radius: 50%;
+        padding: 9px;
         background-color: transparent;
-        font-weight: 600;
+        font-weight: 700;
+        cursor: pointer;
+
+        button:hover {
+          background: #cfa0a0;
+        }
         :disabled:not(.arrow, .active) {
           color: transparent;
         }
         :hover:not(.active, :disabled) {
-          background: #ddd;
+          background: #cfa0a0;
         }
       }
       .active {
-        background-color: #1b45ff;
-        color: #fff;
+        background-color: #c61818;
+        color: #202020;
       }
     }
   }
+
+  .arrow-icon {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
   .results {
     position: absolute;
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
+
     label {
-      font-size: smaller;
       display: flex;
       align-items: center;
       gap: 0.5rem;
+
       select {
-        padding: 2px 6px;
+        font-size: 1rem;
+        padding: 6px 6px;
+        border-radius: 15px;
+        background-color: #c80000;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      option {
         border-radius: 15px;
       }
     }
