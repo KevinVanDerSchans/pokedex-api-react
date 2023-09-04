@@ -13,7 +13,6 @@ const Loading = () => {
   return (
     <LoadingStyled>
       <img width={200} src="/pokemon-loading.gif" alt="Loading" />
-      <p>Searching for data in the Pokedex...</p>
     </LoadingStyled>
   );
 };

@@ -3,23 +3,20 @@ import styled from 'styled-components';
 export const SearchBarStyled = styled.section`
 
   display: flex;
-  width: 100%;
   justify-content: right;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-end;
-  width: 100%;
-  padding: 30px;
   gap: 1.4rem;
   color: #ede7e7;
+  margin-right: 0.5rem;
 
   .searchers-container {
     display: flex;
-    flex-direction: column;
     gap: 1.2rem;
   }
 
   .filter-form {
-    margin-left: 5rem;
+    margin-left: 6rem;
   }
 
   .input-button-search,
@@ -35,7 +32,7 @@ export const SearchBarStyled = styled.section`
 
   .input-button-search:hover,
   .input-button-filter:hover {
-    background-color: #a09b9b;
+    background-color: #817e7e;
   }
 
   .input-button-filter:hover {
@@ -70,7 +67,7 @@ export const SearchBarStyled = styled.section`
     }
 
     .form-input-container:hover {
-      background-color: #918f8f;
+      background-color: #212121;
     }
 
     input {
@@ -104,7 +101,7 @@ export const SearchBarStyled = styled.section`
     }
 
     option {
-      background-color: #c80000;
+      background-color: #cc4e4e;
       color: #e0dcdc;
     }
   }

@@ -14,7 +14,7 @@
 html,
 body {
   font-family: 'Pocket Monk', Arial, sans-serif;
-  background-color: #fff;
+  background: #fff;
   overflow-x: hidden;
   scroll-behavior: smooth ;
 }

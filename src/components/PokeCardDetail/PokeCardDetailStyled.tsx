@@ -19,7 +19,7 @@ export const PokeCardDetailStyled = styled.article<Props>`
   max-width: 768px;
   text-transform: capitalize;
   background: rgba(255, 255, 255, 0.35);
-  box-shadow: 0 5px 18px 0 rgba(8, 8, 12, 0.50);
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px , rgba(204, 204, 204, 0.5) -3px -3px 6px 1px ;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 
@@ -29,13 +29,14 @@ export const PokeCardDetailStyled = styled.article<Props>`
     align-items: center;
     padding: 5px 15px;
     justify-content: space-between;
-    background-color: #f3d6d2;
-    border-radius: 20px;
+    background-color: #f6ebea;
+    border-radius: 10px;
 
     .pokemon-name {
       font-size: 2.4rem;
       max-width: 150px;
       margin-left: 0.4rem;
+      cursor: default;
     }
 
     .pokemon-id {
@@ -43,7 +44,8 @@ export const PokeCardDetailStyled = styled.article<Props>`
       margin-right: 0.4rem;
       visibility: ${(props) =>
         props.pokemon.id < 10000 ? `visible` : 'hidden'};
-    }
+      cursor: default;
+  }
   }
 
   .pokemon-details {
@@ -52,9 +54,11 @@ export const PokeCardDetailStyled = styled.article<Props>`
     width: 100%;
     justify-content: space-evenly;
     font-size: 1.4rem;
+    cursor: default;
 
     .pokemon-img {
       width: 300px;
+      pointer-events: none;
     }
 
     .types {

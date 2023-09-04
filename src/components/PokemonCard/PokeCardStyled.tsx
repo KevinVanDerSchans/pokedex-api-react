@@ -16,11 +16,11 @@ export const CardStyled = styled.article<Props>`
   -webkit-backdrop-filter: blur(2px);
   border-radius: 20px;
   border: 2px solid #ced4da;
+  border-radius: 15px;
 
     &:hover {
-      background-color: rgb(237, 234, 234);
       transform: scale(1.05);
-      filter: brightness(0.8) saturate(1.2);
+      filter: brightness(0.8) saturate(0.5);
     }
 
   .pokemon-info {
@@ -29,21 +29,23 @@ export const CardStyled = styled.article<Props>`
     align-items: center;
     padding: 10px 15px;
     justify-content: space-between;
-    background-color: #f3d6d2;
-    border-radius: 20px;
+    background-color: #f6ebea;
+    border-radius: 10px;
 
     .pokemon-name {
       font-size: 1.4rem;
       font-style: italic;
       text-transform: capitalize;
       max-width: 150px;
+      cursor: default;
     }
 
     .pokemon-id {
       font-size: 1.2rem;
       visibility: ${(props) =>
         props.pokemon.id < 10000 ? `visible` : 'hidden'};
-    }
+      cursor: default;
+  }
   }
 
   .pokemon-img {

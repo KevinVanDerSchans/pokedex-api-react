@@ -3,6 +3,9 @@ import Loading from '../../components/Loading/Loading';
 import PokeCardList from '../../components/PokeCardList/PokeCardList';
 import usePokemonsByType from '../../hooks/usePokemonByType';
 import ErrorMsg from '../../components/ErrorMsg/ErrorMsg';
+import Header from "../../components/Header/Header";
+import { Player } from "../../components/Player/Player";
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 const Filtered = () => {
   const { type } = useParams();
@@ -11,11 +14,14 @@ const Filtered = () => {
 
   return (
     <>
-      {loading ? (
-        <Loading />
-      ) : (
-        (pokemons && <PokeCardList pokemons={pokemons} />) || <ErrorMsg />
-      )}
+      <Header />
+      <Player />
+      <SearchBar />
+        {loading ? (
+          <Loading />
+        ) : (
+          (pokemons && <PokeCardList pokemons={pokemons} />) || <ErrorMsg />
+        )}
     </>
   );
 };

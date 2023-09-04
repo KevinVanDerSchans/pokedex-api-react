@@ -11,14 +11,14 @@ export const PaginationStyled = styled.section<StyledProps>`
   width: 100%;
   padding: 0 2.2rem;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 0 2rem;
 
   .buttons {
     width: fit-content;
     display: flex;
     margin: 0 auto;
     padding: 24px;
-
+    margin-left: 260px;
 
     li {
       button {
@@ -35,14 +35,16 @@ export const PaginationStyled = styled.section<StyledProps>`
         }
         :disabled:not(.arrow, .active) {
           color: transparent;
+          cursor: default;
         }
         :hover:not(.active, :disabled) {
           background: #cfa0a0;
         }
       }
       .active {
-        background-color: #c61818;
+        background-color: #cc4e4e;
         color: #202020;
+        outline: none;
       }
     }
   }
@@ -58,7 +60,7 @@ export const PaginationStyled = styled.section<StyledProps>`
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    margin-left: 0.8rem;
+    margin-left: 0.4rem;
 
     label {
       display: flex;
@@ -66,10 +68,11 @@ export const PaginationStyled = styled.section<StyledProps>`
       gap: 0.5rem;
 
       select {
+        width: 3.4rem;
         font-size: 1rem;
         padding: 6px 6px;
         border-radius: 15px;
-        background-color: #c80000;
+        background-color: #cc4e4e;
         color: #fff;
         font-weight: 700;
       }

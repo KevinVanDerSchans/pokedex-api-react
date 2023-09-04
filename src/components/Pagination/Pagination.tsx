@@ -7,6 +7,7 @@ import {
   MdKeyboardDoubleArrowLeft,
   MdKeyboardDoubleArrowRight,
 } from 'react-icons/md';
+import SearchBar from '../SearchBar/SearchBar';
 
 interface Props {
   setPage: Dispatch<SetStateAction<number>>;
@@ -95,6 +96,7 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           </select>
         </label>
       </div>
+      <SearchBar />
     </PaginationStyled>
   );
 };
