@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 import { HeaderStyled } from "./HeaderStyled"
 import SearchBar from "../SearchBar/SearchBar";
+import { Player } from "../Player/Player"
 
 const Header = () => {
   return (
@@ -19,6 +21,7 @@ const Header = () => {
             width: '100%'
           }}
         >
+          <Player />
           <SearchBar />
         </div>
       </div>

@@ -28,7 +28,7 @@ export const HeaderStyled = styled.header`
   }
 
   .searcher-and-music-container {
-    position: relative;
+    display: flex;
     z-index: 99;
   }
 `

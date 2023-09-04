@@ -10,15 +10,17 @@ export const CardStyled = styled.article<Props>`
   padding: 8px;
   width: 250px;
   height: 300px;
-  background-color: rgba(235, 235, 235, 0.35);
-  box-shadow: 0 5px 18px 0 rgba(8, 8, 12, 0.50);
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px , rgba(255, 255, 255, 0.5) -3px -3px 6px 1px ;
+  transition: transform 0.3s ease;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.18);
+  border: 2px solid #ced4da;
 
     &:hover {
-      background-color: rgba(140, 136, 136, 0.35);
+      background-color: rgb(237, 234, 234);
+      transform: scale(1.05);
+      filter: brightness(0.8) saturate(1.2);
     }
 
   .pokemon-info {
