@@ -45,6 +45,7 @@ export function Player() {
 
       <AudioPlayer
         className="player"
+        autoPlay="off"
         playList={playList}
         activeUI={screenWidth < 800 ? mobileUI : {
           all: true,

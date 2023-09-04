@@ -31,4 +31,17 @@ export const HeaderStyled = styled.header`
     display: flex;
     z-index: 99;
   }
+
+  .gifContainer {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+  }
+
+
 `

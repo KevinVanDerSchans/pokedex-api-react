@@ -8,6 +8,7 @@ export const SearchBarStyled = styled.section`
   align-items: flex-end;
   gap: 1.4rem;
   color: #ede7e7;
+  margin-right: 0.5rem;
 
   .searchers-container {
     display: flex;
@@ -15,7 +16,7 @@ export const SearchBarStyled = styled.section`
   }
 
   .filter-form {
-    margin-left: 5rem;
+    margin-left: 6rem;
   }
 
   .input-button-search,

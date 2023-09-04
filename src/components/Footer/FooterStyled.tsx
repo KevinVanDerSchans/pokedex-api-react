@@ -45,6 +45,6 @@ export const FooterStyled = styled.footer`
   .linkedin-logo:hover,
   .github-logo:hover,
   .user-logo:hover {
-    color: rgb(10, 10, 10);
+    color: #e6b7b7;
   }
 `;
