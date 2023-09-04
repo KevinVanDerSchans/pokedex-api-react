@@ -18,7 +18,7 @@ export const PaginationStyled = styled.section<StyledProps>`
     display: flex;
     margin: 0 auto;
     padding: 24px;
-    margin-left: 220px;
+    margin-left: 260px;
 
     li {
       button {
@@ -35,6 +35,7 @@ export const PaginationStyled = styled.section<StyledProps>`
         }
         :disabled:not(.arrow, .active) {
           color: transparent;
+          cursor: default;
         }
         :hover:not(.active, :disabled) {
           background: #cfa0a0;
@@ -43,6 +44,7 @@ export const PaginationStyled = styled.section<StyledProps>`
       .active {
         background-color: #cc4e4e;
         color: #202020;
+        outline: none;
       }
     }
   }
@@ -66,6 +68,7 @@ export const PaginationStyled = styled.section<StyledProps>`
       gap: 0.5rem;
 
       select {
+        width: 3.4rem;
         font-size: 1rem;
         padding: 6px 6px;
         border-radius: 15px;

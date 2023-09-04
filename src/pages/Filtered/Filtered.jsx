@@ -4,8 +4,8 @@ import PokeCardList from '../../components/PokeCardList/PokeCardList';
 import usePokemonsByType from '../../hooks/usePokemonByType';
 import ErrorMsg from '../../components/ErrorMsg/ErrorMsg';
 import Header from "../../components/Header/Header";
-import Pagination from "../../components/Pagination/Pagination";
 import { Player } from "../../components/Player/Player";
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 const Filtered = () => {
   const { type } = useParams();
@@ -16,7 +16,7 @@ const Filtered = () => {
     <>
       <Header />
       <Player />
-      <Pagination />
+      <SearchBar />
         {loading ? (
           <Loading />
         ) : (

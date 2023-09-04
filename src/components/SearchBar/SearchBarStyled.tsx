@@ -32,7 +32,7 @@ export const SearchBarStyled = styled.section`
 
   .input-button-search:hover,
   .input-button-filter:hover {
-    background-color: #a09b9b;
+    background-color: #817e7e;
   }
 
   .input-button-filter:hover {
@@ -67,7 +67,7 @@ export const SearchBarStyled = styled.section`
     }
 
     .form-input-container:hover {
-      background-color: #918f8f;
+      background-color: #212121;
     }
 
     input {

@@ -8,8 +8,6 @@ import Header from '../../components/Header/Header';
 import styled from 'styled-components';
 import Footer from '../../components/Footer/Footer';
 import { Player } from "../../components/Player/Player";
-import Button from "react-bootstrap/esm/Button";
-import { FaPlay, FaStop } from "react-icons/fa";
 
 const HomePageStyled = styled.section`
   margin: 0 auto;
@@ -58,31 +56,13 @@ const HomePageStyled = styled.section`
 
 const HomePage = () => {
   const { loading, pokemons, page, maxPages, setPage, setLimit } = usePokemons();
-  const [showGifs, setShowGifs] = useState(false);
-
-  const toggleShowGifs = () => {
-    setShowGifs(!showGifs)
-  }
 
   return (
     <>
       <HomePageStyled>
-        <Header showGifs={showGifs}/>
+        <Header/>
 
         <Player />
-
-        <div className="danceButtonContainer">
-          <Button
-
-              variant={showGifs ? "outline-danger" : "outline-success"}
-              onClick={toggleShowGifs}
-              className="danceBtn"
-          >
-              {showGifs ? "Use Rest attack... " : "Use Dance attack ! "}
-              {showGifs ? <FaStop size={15} /> : <FaPlay size={15} />}
-          </Button>
-        </div>
-
 
         <Pagination
           setLimit={setLimit}
