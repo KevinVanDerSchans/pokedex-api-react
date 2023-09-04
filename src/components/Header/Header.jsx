@@ -25,7 +25,6 @@ const Header = ({ showGifs }) => {
               <img style={{ width: "140px" }} id="pikaGif" src="/dance2.gif" alt="Pokemon dancing" />
             </div>
 
-
           </div>
         )}
 

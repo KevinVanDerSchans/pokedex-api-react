@@ -96,8 +96,6 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           </select>
         </label>
       </div>
-
-
       <SearchBar />
     </PaginationStyled>
   );
