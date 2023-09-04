@@ -104,7 +104,7 @@ export const SearchBarStyled = styled.section`
     }
 
     option {
-      background-color: #c80000;
+      background-color: #cc4e4e;
       color: #e0dcdc;
     }
   }

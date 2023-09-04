@@ -52,7 +52,7 @@ const SearchBar = () => {
                 className="search-text-placeholder"
                 placeholder="Type here your Pokemon..."
                 name="id"
-                autoComplete='none'
+                autoComplete='off'
               />
               <button type="submit" data-testid="searchById" className='input-button-search'>
                   SEARCH

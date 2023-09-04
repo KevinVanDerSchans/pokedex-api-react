@@ -41,7 +41,7 @@ export const PaginationStyled = styled.section<StyledProps>`
         }
       }
       .active {
-        background-color: #c61818;
+        background-color: #cc4e4e;
         color: #202020;
       }
     }
@@ -69,7 +69,7 @@ export const PaginationStyled = styled.section<StyledProps>`
         font-size: 1rem;
         padding: 6px 6px;
         border-radius: 15px;
-        background-color: #c80000;
+        background-color: #cc4e4e;
         color: #fff;
         font-weight: 700;
       }
