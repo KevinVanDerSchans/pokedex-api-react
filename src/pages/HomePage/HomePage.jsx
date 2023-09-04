@@ -12,6 +12,7 @@ import { Player } from "../../components/Player/Player";
 const HomePageStyled = styled.section`
   margin: 0 auto;
   overflow-y: hidden;
+  overflow-x: hidden;
 
   .danceButtonContainer {
     width: 100%;
