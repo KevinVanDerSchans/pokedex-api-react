@@ -18,13 +18,7 @@ const Header = () => {
     <HeaderStyled>
       <div className="header-container">
 
-        <div className="logo-container">
-          <Link to={'/'}>
-            <img src="/pokemon-logo.svg" className="pokemon-logo" alt="Pokemon Logo" />
-          </Link>
-        </div>
-
-        <div>
+      <div>
           <div className="danceButtonContainer">
             <Button
                 variant={showGifs ? "outline-danger" : "outline-success"}
@@ -35,6 +29,12 @@ const Header = () => {
                 {showGifs ? <FaStop size={15} /> : <FaPlay size={15} />}
             </Button>
           </div>
+        </div>
+
+        <div className="logo-container">
+          <Link to={'/'}>
+            <img src="/pokemon-logo.svg" className="pokemon-logo" alt="Pokemon Logo" />
+          </Link>
         </div>
 
         {showGifs && (
