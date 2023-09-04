@@ -7,7 +7,6 @@ export const SearchBarStyled = styled.section`
   justify-content: right;
   flex-direction: column;
   align-items: flex-end;
-  margin-right: 4rem;
   width: 100%;
   padding: 30px;
   gap: 1.4rem;
@@ -17,6 +16,10 @@ export const SearchBarStyled = styled.section`
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+  }
+
+  .filter-form {
+    margin-left: 5rem;
   }
 
   .input-button-search,
@@ -40,7 +43,7 @@ export const SearchBarStyled = styled.section`
   }
 
   .search-text-placeholder {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     padding: 0.2rem;
     cursor: default;
   }
