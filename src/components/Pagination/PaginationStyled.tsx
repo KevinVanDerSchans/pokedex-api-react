@@ -11,14 +11,14 @@ export const PaginationStyled = styled.section<StyledProps>`
   width: 100%;
   padding: 0 2.2rem;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 0 2rem;
 
   .buttons {
     width: fit-content;
     display: flex;
     margin: 0 auto;
     padding: 24px;
-
+    margin-left: 220px;
 
     li {
       button {

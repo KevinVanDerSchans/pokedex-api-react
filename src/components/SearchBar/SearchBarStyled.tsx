@@ -3,18 +3,14 @@ import styled from 'styled-components';
 export const SearchBarStyled = styled.section`
 
   display: flex;
-  width: 100%;
   justify-content: right;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-end;
-  width: 100%;
-  padding: 30px;
   gap: 1.4rem;
   color: #ede7e7;
 
   .searchers-container {
     display: flex;
-    flex-direction: column;
     gap: 1.2rem;
   }
 

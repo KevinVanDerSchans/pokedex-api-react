@@ -40,7 +40,9 @@ export function Player() {
   }, []);
 
   return (
+    <div className='player-container'>
     <PlayerStyled>
+
       <AudioPlayer
         className="player"
         playList={playList}
@@ -50,5 +52,6 @@ export function Player() {
         }}
       />
     </PlayerStyled>
+    </div>
   );
 };

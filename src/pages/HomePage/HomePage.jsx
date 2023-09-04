@@ -6,6 +6,7 @@ import usePokemons from '../../hooks/usePokemons';
 import Header from '../../components/Header/Header';
 import styled from 'styled-components';
 import Footer from '../../components/Footer/Footer';
+import { Player } from "../../components/Player/Player"
 
 const HomePageStyled = styled.section`
   margin: 0 auto;
@@ -20,6 +21,7 @@ const HomePage = () => {
     <>
       <HomePageStyled>
         <Header />
+        <Player />
         <Pagination
           setLimit={setLimit}
           setPage={setPage}
