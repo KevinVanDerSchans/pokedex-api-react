@@ -6,9 +6,39 @@ import { PlayerStyled } from './PlayerStyled';
 const playList = [
   {
     id: 1,
+    name: 'Opening',
+    img: '/player-pokeball.jpg',
+    src: '/mp3/opening.mp3',
+  },
+  {
+    id: 2,
     name: 'Littleroot Town',
     img: '/player-pokeball.jpg',
-    src: '/littleroot-town.mp3',
+    src: '/mp3/littleroot-town.mp3',
+  },
+  {
+    id: 3,
+    name: 'Pokemon Rap',
+    img: '/player-pokeball.jpg',
+    src: '/mp3/pokemon-rap.mp3',
+  },
+  {
+    id: 4,
+    name: 'Combat',
+    img: '/player-pokeball.jpg',
+    src: '/mp3/combat.mp3',
+  },
+  {
+    id: 5,
+    name: 'Team Rocket',
+    img: '/player-pokeball.jpg',
+    src: '/mp3/team-rocket.mp3',
+  },
+  {
+    id: 6,
+    name: 'Games',
+    img: '/player-pokeball.jpg',
+    src: '/mp3/games.mp3',
   }
 ]
 
