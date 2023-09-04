@@ -2,10 +2,9 @@ import styled from "styled-components"
 
 export const HeaderStyled = styled.header`
 
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Activar flexbox en el contenedor principal */
+  align-items: center; /* Centrar verticalmente los elementos */
+
   background-image: url('/pokeball-background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,29 +12,32 @@ export const HeaderStyled = styled.header`
 
   .header-container {
     display: flex;
-    text-align: center;
-    width: 100%;
-    flex-direction: column;
   }
 
   .logo-container {
-    margin-top: 1rem;
+    display: flex;
+    justify-content: left;
+    text-align: center;
   }
 
   .pokemon-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
     width: 24em;
   }
 
   .danceButtonContainer {
-    position: relative;
+    width: 20%;
+    display: flex;
+    justify-content: left;
     right: 1.8rem;
-    width: 100%;
-    justify-content: flex-start;
     margin-bottom: 1rem;
   }
 
   .danceBtn {
-    border-radius: 20px;
     padding: 18px;
     margin: 15px 0 0 15px;
     font-size: 1.4rem;
@@ -44,6 +46,7 @@ export const HeaderStyled = styled.header`
     background-color: #ba3535;
     color: white;
     border: none;
+    border-radius: 20px;
     animation: dance 5s infinite;
   }
 
@@ -75,7 +78,6 @@ export const HeaderStyled = styled.header`
     justify-content: center;
     align-items: center;
     gap: 450px;
+    pointer-events: none;
   }
-
-
 `

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import ErrorMsg from '../../components/ErrorMsg/ErrorMsg';
 import Loading from '../../components/Loading/Loading';
 import Pagination from '../../components/Pagination/Pagination';
