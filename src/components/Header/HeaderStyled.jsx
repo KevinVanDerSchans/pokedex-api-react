@@ -8,7 +8,7 @@ export const HeaderStyled = styled.header`
   justify-content: center;
   align-items: center;
 
-  background-image: url('/pokeball-background.png');
+  background-image: url('/pokeball2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
