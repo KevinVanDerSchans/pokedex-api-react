@@ -63,13 +63,16 @@ const SearchBar = () => {
           </label>
         </form>
 
-        <form onSubmit={handleSearch}>
+        <form
+          onSubmit={handleSearch}
+          className='search-form'
+        >
           <label>
             <div className="form-input-container">
               <input
                 type="text"
                 className="search-text-placeholder"
-                placeholder="Type here your Pokemon..."
+                placeholder="Type..."
                 name="id"
                 autoComplete='off'
               />

@@ -47,6 +47,81 @@ export const PaginationStyled = styled.section<StyledProps>`
         outline: none;
       }
     }
+
+
+    @media (max-width: 905px) {
+      li {
+        button {
+          position: relative;
+          right: 20px;
+          width: 26px;
+          padding: 8px 0;
+          font-size: 0.7rem;
+          margin: 0;
+        }
+      }
+
+      .results-label {
+        font-size: 0.4rem;
+      }
+    }
+  }
+
+  @media (max-width: 905px) {
+
+    flex-direction: column;
+
+
+    .results {
+      display: flex;
+      width: 100%;
+      position: relative;
+      padding-left: 1rem;
+    }
+
+    .buttons {
+      display: flex;
+      width: 100%;
+      margin: 30px 0 0 40px;
+      justify-content: center;
+    }
+
+    .searchBarContainer {
+      display: flex;
+      width: 100%;
+      position: absolute;
+      justify-content: right;
+    }
+  }
+
+  @media (max-width: 430px) {
+    flex-direction: column;
+    gap: 20px;
+
+    .results {
+      display: flex;
+      width: 100%;
+      position: relative;
+      margin: 0 20px 10px 0;
+    }
+
+    .buttons {
+      display: flex;
+      width: 100%;
+      position: relative;
+      right: 60px;
+      justify-content: center;
+      padding: 14px 0 0 10px;
+    }
+
+    .searchBarContainer {
+      display: flex;
+      width: 100%;
+
+      position: absolute;
+      justify-content: right;
+    }
+
   }
 
   .arrow-icon {

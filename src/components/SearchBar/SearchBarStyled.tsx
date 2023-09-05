@@ -71,7 +71,7 @@ export const SearchBarStyled = styled.section`
     }
 
     input {
-      width: 190px;
+      width: 100px;
       cursor: default;
     }
 
@@ -107,19 +107,244 @@ export const SearchBarStyled = styled.section`
   }
 
 
-  @media (max-width: 540px) {
-    gap: 1rem;
-    padding: 20px 10px;
-    label {
-      font-size: 0.8rem;
-      input {
-        width: 100px;
+    @media (max-width: 1192px) {
+      gap: 1rem;
+
+      label {
+        font-size: 0.5rem;
+
+        input {
+          width: 80px;
+        }
+
+        input,
+        button,
+        select {
+          font-size: 0.6rem;
+        }
       }
+
+      .filter-form,
+      .search-form {
+        width: 180px;
+        padding: 0;
+        margin: 0;
+      }
+
+      .search-text-placeholder::placeholder {
+        color: #e5dfdf;
+        width: fit-content;
+        font-size: 0.6rem;
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+        font-size: small;
+
+          .form-input-container {
+            padding: 0.2rem 0.2rem;
+          }
+      }
+
+    .input-button-search,
+    .input-button-filter {
+      width: 40px;
+      height: 24px;
+
+    }
+  }
+
+
+  @media (max-width: 1192px) {
+
+    .searchers-container {
+      position: relative;
+      left: 42px;
+      gap: 0;
+      padding: 0;
+      margin: 0;
+    }
+
+    label {
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+      width: max-content;
+
+      input {
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      input::placeholder {
+        font-size: 0.01rem;
+      }
+
       input,
       button,
       select {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
       }
+    }
+
+    .filter-form,
+    .search-form {
+      width: 120px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .search-text-placeholder::placeholder {
+      color: #e5dfdf;
+      width: fit-content;
+      font-size: 0.6rem;
+    }
+
+    .input-button-search,
+    .input-button-filter {
+      width: 40px;
+      height: 24px;
+    }
+
+    .search-text-placeholder {
+      font-size: 0.6rem;
+      padding: 0.2rem;
+    }
+  }
+
+  @media (max-width: 1192px) {
+
+    .searchers-container {
+      position: relative;
+      left: 10px;
+      gap: 0;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .searchers-container {
+      position: relative;
+      left: 20px;
+      gap: 0;
+      padding: 0;
+      margin: 0;
+    }
+
+    label {
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+      width: max-content;
+
+      input {
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      input::placeholder {
+        font-size: 0.01rem;
+      }
+
+      input,
+      button,
+      select {
+        font-size: 0.6rem;
+      }
+    }
+
+    .filter-form,
+    .search-form {
+      width: 120px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .search-text-placeholder::placeholder {
+      color: #e5dfdf;
+      width: fit-content;
+      font-size: 0.6rem;
+    }
+
+    .input-button-search,
+    .input-button-filter {
+      width: 40px;
+      height: 24px;
+    }
+
+    .search-text-placeholder {
+      font-size: 0.6rem;
+      padding: 0.2rem;
+    }
+  }
+
+  @media (max-width: 430px) {
+
+    .searchers-container {
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      left: 0px;
+      gap: 4px;
+      padding-right: 10px;
+      margin: 0;
+    }
+
+    .search-form label {
+      margin-left: 8px;
+    }
+
+    label {
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+      width: max-content;
+
+      input {
+        width: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      input::placeholder {
+        font-size: 0.01rem;
+      }
+
+      input,
+      button,
+      select {
+        font-size: 0.6rem;
+      }
+    }
+
+    .filter-form,
+    .search-form {
+      width: 120px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .search-text-placeholder::placeholder {
+      color: #e5dfdf;
+      width: fit-content;
+      font-size: 0.6rem;
+    }
+
+    .input-button-search,
+    .input-button-filter {
+      width: 40px;
+      height: 24px;
+    }
+
+    .search-text-placeholder {
+      font-size: 0.6rem;
+      padding: 0.2rem;
     }
   }
 `;
