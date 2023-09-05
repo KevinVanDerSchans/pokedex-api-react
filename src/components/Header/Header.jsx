@@ -41,11 +41,11 @@ const Header = () => {
         {showGifs && (
           <div className="gifContainer">
             <div className="dancingPokemonContainer">
-              <img className="pokemon-dancing-img" src="src/assets/dance1.gif" alt="Pokemon dancing" />
+              <img className="pokemon-dancing-img" src="/assets/dance1.gif" alt="Pokemon dancing" />
             </div>
 
             <div className="dancingPokemonContainer">
-              <img className="pokemon-dancing-img" id="pikaGif" src="/assets/dance2.gif" alt="Pokemon dancing" />
+              <img className="pokemon-dancing-img" id="pikaGif" src="/dance3.gif" alt="Pokemon dancing" />
             </div>
           </div>
         )}
