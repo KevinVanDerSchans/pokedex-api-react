@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Pocket Monk', Arial, sans-serif;
-  src: url('../fonts/pokemonFont.ttf') format('truetype');
+  src: url('../pokemonFont.ttf') format('truetype');
 }
 
 *,

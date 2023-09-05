@@ -4,9 +4,9 @@ import { SearchBarStyled } from './SearchBarStyled';
 
 const SearchBar = () => {
 
-  const audioUrlFilter = '/polytones/level-up.mp3';
+  const audioUrlFilter = '/level-up.mp3';
 
-  const audioUrlSearch = '/polytones/recovery.mp3';
+  const audioUrlSearch = '/recovery.mp3';
 
   const playAudioFilter = () => {
     const audio = new Audio(audioUrlFilter);
