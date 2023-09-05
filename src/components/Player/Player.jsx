@@ -8,40 +8,38 @@ const playList = [
     name: 'Opening',
     writer: '(R/S/E)',
     img: '/player-pokeball.jpg',
-    src: '/dist/opening.mp3',
-  }
-  /*
+    src: '/opening.mp3',
+  },
   {
     id: 2,
     name: 'Littleroot Town',
     img: '/player-pokeball.jpg',
-    src: '/mp3/littleroot-town.mp3',
+    src: '/littleroot-town.mp3',
   },
   {
     id: 3,
     name: 'Pokemon Rap',
     img: '/player-pokeball.jpg',
-    src: '/mp3/pokemon-rap.mp3',
+    src: '/pokemon-rap.mp3',
   },
   {
     id: 4,
     name: 'Combat',
     img: '/player-pokeball.jpg',
-    src: '/mp3/combat.mp3',
+    src: '/combat.mp3',
   },
   {
     id: 5,
     name: 'Team Rocket',
     img: '/player-pokeball.jpg',
-    src: '/mp3/team-rocket.mp3',
+    src: '/team-rocket.mp3',
   },
   {
     id: 6,
     name: 'Games',
     img: '/player-pokeball.jpg',
-    src: '/mp3/games.mp3',
+    src: '/games.mp3',
   }
-  */
 ]
 
 const mobileUI = {
