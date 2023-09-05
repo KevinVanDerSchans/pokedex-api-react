@@ -8,7 +8,7 @@ export const HeaderStyled = styled.header`
   justify-content: center;
   align-items: center;
 
-  background-image: url('/pokeball2.jpg');
+  background-image: url('/pokeball-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -36,17 +36,17 @@ export const HeaderStyled = styled.header`
 
   .danceButtonContainer {
     position: relative;
-    top: 100px;
-    right: 24px;
+    top: 120px;
+    right: 0px;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
   }
 
   .danceBtn {
-    padding: 4px;
+    padding: 8px;
     margin: 15px 0 0 15px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-family: inherit;
     cursor: pointer;
     background-color: #ba3535;
@@ -116,7 +116,6 @@ export const HeaderStyled = styled.header`
     .danceButtonContainer {
       position: relative;
       top: 100px;
-      right: 24px;
       width: 100%;
       justify-content: flex-start;
       margin-bottom: 1rem;
@@ -148,7 +147,7 @@ export const HeaderStyled = styled.header`
       width: 100%;
       justify-content: center;
       align-items: center;
-      gap: 200px;
+      gap: 280px;
     }
 
     .danceButtonContainer {

@@ -10,7 +10,7 @@ import Footer from '../../components/Footer/Footer';
 import { Player } from "../../components/Player/Player";
 
 const HomePageStyled = styled.section`
-  margin: 0 auto;
+  margin: 0;
   overflow-y: hidden;
   overflow-x: hidden;
 `;
