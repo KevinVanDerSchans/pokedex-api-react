@@ -46,7 +46,7 @@ export const HeaderStyled = styled.header`
   .danceBtn {
     padding: 8px;
     margin: 15px 0 0 15px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: inherit;
     cursor: pointer;
     background-color: #ba3535;
@@ -158,7 +158,7 @@ export const HeaderStyled = styled.header`
       width: 9em;
       padding: 8px;
       margin: 15px 0 0 15px;
-      font-size: 0.6rem;
+      font-size: 0.7rem;
     }
   }
 
@@ -193,7 +193,7 @@ export const HeaderStyled = styled.header`
       width: 9em;
       padding: 8px;
       margin: 15px 0 0 15px;
-      font-size: 0.6rem;
+      font-size: 0.7rem;
     }
   }
 
@@ -221,6 +221,13 @@ export const HeaderStyled = styled.header`
     .pokemon-dancing-img {
       width: 80px;
     }
+
+    .danceBtn {
+      width: 9em;
+      padding: 8px;
+      margin: 15px 0 0 15px;
+      font-size: 0.7rem;
+    }
   }
 
   @media (max-width: 434px) {
@@ -237,6 +244,13 @@ export const HeaderStyled = styled.header`
       top: 84px;
     }
 
+    .danceBtn {
+      width: 9em;
+      padding: 8px;
+      margin: 15px 0 0 15px;
+      font-size: 0.7rem;
+    }
+
     .gifContainer {
       display: flex;
       position: absolute;
@@ -250,8 +264,6 @@ export const HeaderStyled = styled.header`
 
 
   @media (max-width: 370px) {
-
-
 
     .pokemon-logo {
       width: 8em;
