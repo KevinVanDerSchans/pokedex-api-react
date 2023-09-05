@@ -8,7 +8,7 @@ const playList = [
     id: 1,
     name: 'Opening',
     img: '/player-pokeball.jpg',
-    src: '/mp3/opening.mp3',
+    src: '/opening.mp3',
   },
   {
     id: 2,
