@@ -13,7 +13,7 @@
 
 html,
 body {
-  font-family: 'Pocket Monk', Arial, sans-serif;
+  font-family: 'Pocket Monk', 'Courier New', Courier, monospace, sans-serif;
   background: #fff;
   overflow-x: hidden;
   scroll-behavior: smooth ;
