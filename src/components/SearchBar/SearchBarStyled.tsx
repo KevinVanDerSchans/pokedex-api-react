@@ -47,7 +47,7 @@ export const SearchBarStyled = styled.section`
   .search-text-placeholder::placeholder {
     color: #bdb9b9;
     font-size: 1rem;
-    font-family: 'Pocket Monk';
+    font-family: inherit;
   }
 
   label {
@@ -81,7 +81,7 @@ export const SearchBarStyled = styled.section`
       background-color: transparent;
       border: 0;
       color: #f5f3f3;
-      font-family: 'Pocket Monk';
+      font-family: inherit;
 
       :focus {
         outline: none;

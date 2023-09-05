@@ -160,9 +160,9 @@ export const PaginationStyled = styled.section<StyledProps>`
       gap: 0.5rem;
 
       select {
-        width: 3.4rem;
-        font-size: 1rem;
-        padding: 6px 6px;
+        width: 3rem;
+        font-size: 0.8rem;
+        padding: 4px 4px;
         border-radius: 15px;
         background-color: #cc4e4e;
         color: #fff;

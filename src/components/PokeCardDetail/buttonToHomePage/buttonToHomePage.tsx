@@ -4,7 +4,7 @@ import styled from "styled-components"
 const ButtonToHomePageStyled = styled.div`
 
   .button-to-home-page {
-    font-family: 'Pocket Monk';
+    font-family: inherit;
     background-color: #424141;
     color: #f4f1f1;
     font-size: 1.8rem;
