@@ -14,31 +14,31 @@ const playList = [
     id: 2,
     name: 'Littleroot Town',
     img: '/player-pokeball.jpg',
-    src: '/littleroot-town.mp3',
+    src: '/assets/littleroot-town.mp3',
   },
   {
     id: 3,
     name: 'Pokemon Rap',
     img: '/player-pokeball.jpg',
-    src: '/pokemon-rap.mp3',
+    src: '/assets/pokemon-rap.mp3',
   },
   {
     id: 4,
     name: 'Combat',
     img: '/player-pokeball.jpg',
-    src: '/combat.mp3',
+    src: '/assets/combat.mp3',
   },
   {
     id: 5,
     name: 'Team Rocket',
     img: '/player-pokeball.jpg',
-    src: '/team-rocket.mp3',
+    src: '/assets/team-rocket.mp3',
   },
   {
     id: 6,
     name: 'Games',
     img: '/player-pokeball.jpg',
-    src: '/games.mp3',
+    src: '/assets/games.mp3',
   }
 ]
 

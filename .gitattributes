@@ -1,3 +1,15 @@
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
+public/assets/dance1.gif filter=lfs diff=lfs merge=lfs -text
+public/assets/dance2.gif filter=lfs diff=lfs merge=lfs -text
+public/assets/dance3.gif filter=lfs diff=lfs merge=lfs -text
+public/assets/opening.mp3 filter=lfs diff=lfs merge=lfs -text
+public/assets/pokemon-rap.mp3 filter=lfs diff=lfs merge=lfs -text
+public/assets/combat.mp3 filter=lfs diff=lfs merge=lfs -text
+public/assets/games.mp3 filter=lfs diff=lfs merge=lfs -text
+public/assets/level-up.mp3 filter=lfs diff=lfs merge=lfs -text
+public/assets/littleroot-town.mp3 filter=lfs diff=lfs merge=lfs -text
+public/assets/pokemon-loading.gif filter=lfs diff=lfs merge=lfs -text
+public/assets/recovery.mp3 filter=lfs diff=lfs merge=lfs -text
+public/assets/team-rocket.mp3 filter=lfs diff=lfs merge=lfs -text
