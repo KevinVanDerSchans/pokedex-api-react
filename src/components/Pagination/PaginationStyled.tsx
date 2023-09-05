@@ -67,61 +67,78 @@ export const PaginationStyled = styled.section<StyledProps>`
     }
   }
 
-  @media (max-width: 905px) {
+  @media (max-width: 830px) {
 
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: space-between;
 
     .results {
       display: flex;
-      width: 100%;
       position: relative;
+      justify-content: left;
       padding-left: 1rem;
     }
 
     .buttons {
       display: flex;
-      width: 100%;
-      margin: 30px 0 0 40px;
-      justify-content: center;
+      position: relative;
+      margin: 0px 0 0 10px;
+      top: 50px;
     }
 
     .searchBarContainer {
       display: flex;
-      width: 100%;
-      position: absolute;
       justify-content: right;
     }
   }
 
-  @media (max-width: 430px) {
+
+  @media (max-width: 475px) {
     flex-direction: column;
     gap: 20px;
 
     .results {
+      position: absolute;
       display: flex;
-      width: 100%;
-      position: relative;
-      margin: 0 20px 10px 0;
+      align-items: center;
+      font-size: 1rem;
+      margin-left: 0.4rem;
+
+    label {
+      display: flex;
+      align-items: center;
+
+      select {
+        width: 3.4rem;
+        font-size: 0.4rem;
+        padding: 6px 6px;
+        border-radius: 15px;
+        background-color: #cc4e4e;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      option {
+        border-radius: 15px;
+      }
+    }
+  }
+
+    .results-label {
+      font-size: 0.8rem;
     }
 
     .buttons {
-      display: flex;
-      width: 100%;
       position: relative;
-      right: 60px;
-      justify-content: center;
-      padding: 14px 0 0 10px;
+      padding-top: 0px;
+      left: 20px;
     }
 
     .searchBarContainer {
       display: flex;
-      width: 100%;
-
       position: absolute;
       justify-content: right;
     }
-
   }
 
   .arrow-icon {

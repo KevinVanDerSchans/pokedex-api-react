@@ -5,7 +5,6 @@ export const SearchBarStyled = styled.section`
   display: flex;
   justify-content: right;
   flex-direction: row;
-  align-items: flex-end;
   gap: 1.4rem;
   color: #ede7e7;
   margin-right: 0.5rem;
@@ -153,7 +152,6 @@ export const SearchBarStyled = styled.section`
     .input-button-filter {
       width: 40px;
       height: 24px;
-
     }
   }
 
@@ -227,13 +225,27 @@ export const SearchBarStyled = styled.section`
     }
   }
 
-  @media (max-width: 540px) {
+
+  @media (max-width: 600px) {
+
     .searchers-container {
       position: relative;
-      left: 20px;
-      gap: 0;
-      padding: 0;
+      flex-direction: column;
+      justify-content: center;
+      top: 20px;
+      left: 0px;
+      gap: 4px;
+      padding-right: 10px;
       margin: 0;
+    }
+
+    .search-form {
+      position: relative;
+      left: 18px;
+    }
+
+    .search-form label {
+      margin-right: 8px;
     }
 
     label {
@@ -284,67 +296,15 @@ export const SearchBarStyled = styled.section`
     }
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 475px) {
 
     .searchers-container {
-      position: relative;
-      flex-direction: column;
-      justify-content: center;
-      left: 0px;
-      gap: 4px;
-      padding-right: 10px;
-      margin: 0;
-    }
-
-    .search-form label {
-      margin-left: 8px;
-    }
-
-    label {
-      font-size: 1rem;
-      margin: 0;
-      padding: 0;
-      width: max-content;
-
-      input {
-        width: 50px;
-        justify-content: center;
-        align-items: center;
-      }
-
-      input::placeholder {
-        font-size: 0.01rem;
-      }
-
-      input,
-      button,
-      select {
-        font-size: 0.6rem;
-      }
-    }
-
-    .filter-form,
-    .search-form {
-      width: 120px;
-      padding: 0;
-      margin: 0;
-    }
-
-    .search-text-placeholder::placeholder {
-      color: #e5dfdf;
-      width: fit-content;
-      font-size: 0.6rem;
-    }
-
-    .input-button-search,
-    .input-button-filter {
-      width: 40px;
-      height: 24px;
-    }
-
-    .search-text-placeholder {
-      font-size: 0.6rem;
-      padding: 0.2rem;
+      display: flex;
+      position: absolute;
+      flex-direction: row;
+      right: 40px;
+      padding-top: 100px;
+      gap: 0;
     }
   }
 `;
