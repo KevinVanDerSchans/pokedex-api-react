@@ -36,7 +36,7 @@ export const HeaderStyled = styled.header`
 
   .danceButtonContainer {
     position: relative;
-    top: 90px;
+    top: 100px;
     right: 24px;
     width: 100%;
     justify-content: flex-start;
@@ -44,7 +44,7 @@ export const HeaderStyled = styled.header`
   }
 
   .danceBtn {
-    padding: 8px;
+    padding: 4px;
     margin: 15px 0 0 15px;
     font-size: 1.4rem;
     font-family: inherit;
@@ -128,7 +128,145 @@ export const HeaderStyled = styled.header`
       margin: 15px 0 0 15px;
       font-size: 1.2rem;
     }
+  }
 
+  @media (max-width: 660px) {
+
+    .logo-container {
+      position: relative;
+      right: 220px;
+    }
+
+    .pokemon-logo {
+      width: 14em;
+    }
+
+    .gifContainer {
+      display: flex;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 200px;
+    }
+
+    .danceButtonContainer {
+      top: 100px;
+    }
+
+    .danceBtn {
+      width: 9em;
+      padding: 8px;
+      margin: 15px 0 0 15px;
+      font-size: 0.6rem;
+    }
+  }
+
+  @media (max-width: 530px) {
+
+    .logo-container {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .pokemon-logo {
+      width: 12em;
+    }
+
+    .gifContainer {
+      display: flex;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 200px;
+    }
+
+    .danceButtonContainer {
+      top: 94px;
+    }
+
+    .danceBtn {
+      width: 9em;
+      padding: 8px;
+      margin: 15px 0 0 15px;
+      font-size: 0.6rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+
+    .logo-container {
+      position: relative;
+      padding-right: 300px;
+    }
+
+    .pokemon-logo {
+      width: 12em;
+    }
+
+    .gifContainer {
+      display: flex;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 180px;
+    }
+
+    .pokemon-dancing-img {
+      width: 80px;
+    }
+  }
+
+  @media (max-width: 434px) {
+
+    .pokemon-logo {
+      width: 10em;
+    }
+
+    .pokemon-dancing-img {
+      width: 80px;
+    }
+
+    .danceButtonContainer {
+      top: 84px;
+    }
+
+    .gifContainer {
+      display: flex;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 180px;
+    }
+  }
+
+
+  @media (max-width: 370px) {
+
+
+
+    .pokemon-logo {
+      width: 8em;
+    }
+
+    .gifContainer {
+      display: flex;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+    }
 
   }
 `
