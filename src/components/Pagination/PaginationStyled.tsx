@@ -47,6 +47,98 @@ export const PaginationStyled = styled.section<StyledProps>`
         outline: none;
       }
     }
+
+
+    @media (max-width: 905px) {
+      li {
+        button {
+          position: relative;
+          right: 20px;
+          width: 26px;
+          padding: 8px 0;
+          font-size: 0.7rem;
+          margin: 0;
+        }
+      }
+
+      .results-label {
+        font-size: 0.4rem;
+      }
+    }
+  }
+
+  @media (max-width: 830px) {
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    .results {
+      display: flex;
+      position: relative;
+      justify-content: left;
+      padding-left: 1rem;
+    }
+
+    .buttons {
+      display: flex;
+      position: relative;
+      margin: 0px 0 0 10px;
+      top: 50px;
+    }
+
+    .searchBarContainer {
+      display: flex;
+      justify-content: right;
+    }
+  }
+
+
+  @media (max-width: 475px) {
+    flex-direction: column;
+    gap: 20px;
+
+    .results {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      margin-left: 0.4rem;
+
+    label {
+      display: flex;
+      align-items: center;
+
+      select {
+        width: 3.4rem;
+        font-size: 0.4rem;
+        padding: 6px 6px;
+        border-radius: 15px;
+        background-color: #cc4e4e;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      option {
+        border-radius: 15px;
+      }
+    }
+  }
+
+    .results-label {
+      font-size: 0.8rem;
+    }
+
+    .buttons {
+      position: relative;
+      padding-top: 0px;
+      left: 20px;
+    }
+
+    .searchBarContainer {
+      display: flex;
+      position: absolute;
+      justify-content: right;
+    }
   }
 
   .arrow-icon {

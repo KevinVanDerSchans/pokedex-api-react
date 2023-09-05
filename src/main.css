@@ -44,16 +44,30 @@ ol,
 ul,
 li,
 form,
+section,
 label,
 legend,
 menu,
-nav {
+nav,
+footer {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
   text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  overflow: hidden;
 }
 
 h1 {

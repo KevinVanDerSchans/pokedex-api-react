@@ -10,48 +10,9 @@ import Footer from '../../components/Footer/Footer';
 import { Player } from "../../components/Player/Player";
 
 const HomePageStyled = styled.section`
-  margin: 0 auto;
+  margin: 0;
   overflow-y: hidden;
-
-  .danceButtonContainer {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    padding-left: 1.6rem;
-  }
-
-  .danceBtn {
-    border-radius: 20px;
-    padding: 18px;
-    margin: 15px 0 0 15px;
-    font-size: 1.4rem;
-    font-family: inherit;
-    cursor: pointer;
-    background-color: #ba3535;
-    color: white;
-    border: none;
-    animation: dance 5s infinite;
-  }
-
-  @keyframes dance {
-    0%, 100% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(-5px) rotate(-5deg);
-    }
-    50% {
-      transform: translateX(5px) rotate(5deg);
-    }
-    75% {
-      transform: translateX(-5px) rotate(-5deg);
-    }
-  }
-
-  .danceBtn:hover {
-    background-color: #383636;
-  }
+  overflow-x: hidden;
 `;
 
 const HomePage = () => {

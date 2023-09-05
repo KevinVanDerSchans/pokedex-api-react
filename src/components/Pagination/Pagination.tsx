@@ -81,7 +81,7 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
       </ul>
 
       <div className="results">
-        <label>
+        <label className='results-label'>
           Page results
           <select
             onChange={(e) => {
@@ -96,7 +96,11 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           </select>
         </label>
       </div>
-      <SearchBar />
+
+      <div className='searchBarContainer'>
+        <SearchBar />
+      </div>
+
     </PaginationStyled>
   );
 };
