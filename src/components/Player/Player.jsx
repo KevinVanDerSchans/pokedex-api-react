@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import AudioPlayer from 'react-modern-audio-player';
 import { PlayerStyled } from './PlayerStyled';
 
@@ -7,9 +6,11 @@ const playList = [
   {
     id: 1,
     name: 'Opening',
+    writer: '(R/S/E)',
     img: '/player-pokeball.jpg',
     src: '/opening.mp3',
-  },
+  }
+  /*
   {
     id: 2,
     name: 'Littleroot Town',
@@ -40,6 +41,7 @@ const playList = [
     img: '/player-pokeball.jpg',
     src: '/mp3/games.mp3',
   }
+  */
 ]
 
 const mobileUI = {
@@ -63,8 +65,8 @@ export function Player() {
     const handleResizeWindow = () => setScreenWidth(window.innerWidth);
 
     window.addEventListener("resize", handleResizeWindow);
-    return () => {
 
+    return () => {
     window.removeEventListener("resize", handleResizeWindow);
     };
   }, []);
@@ -75,9 +77,8 @@ export function Player() {
 
       <AudioPlayer
         className="player"
-        autoPlay="off"
         playList={playList}
-        activeUI={screenWidth < 800 ? mobileUI : {
+        activeUI={screenWidth < 700 ? mobileUI : {
           all: true,
           progress: "waveform",
         }}
