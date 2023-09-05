@@ -12,7 +12,7 @@ const LoadingStyled = styled.div`
 const Loading = () => {
   return (
     <LoadingStyled>
-      <img width={200} src="/pokemon-loading.gif" alt="Loading" />
+      <img width={200} src="/assets/pokemon-loading.gif" alt="Loading" />
     </LoadingStyled>
   );
 };
