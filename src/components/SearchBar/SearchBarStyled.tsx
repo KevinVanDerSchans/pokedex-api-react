@@ -214,6 +214,7 @@ export const SearchBarStyled = styled.section`
     }
   }
 
+
   @media (max-width: 1192px) {
 
     .searchers-container {
@@ -295,6 +296,7 @@ export const SearchBarStyled = styled.section`
       padding: 0.2rem;
     }
   }
+
 
   @media (max-width: 475px) {
 

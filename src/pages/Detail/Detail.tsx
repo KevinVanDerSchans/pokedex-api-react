@@ -5,7 +5,6 @@ import PokeCardDetail from '../../components/PokeCardDetail/PokeCardDetail';
 import ErrorMsg from '../../components/ErrorMsg/ErrorMsg';
 import { DetailStyled } from './DetailStyled';
 
-
 const Detail = () => {
   const { id } = useParams();
   const { pokemon, loading, isFulfilled } = usePokemonDetail(id);

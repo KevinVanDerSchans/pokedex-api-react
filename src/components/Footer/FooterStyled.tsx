@@ -48,6 +48,7 @@ export const FooterStyled = styled.footer`
     color: #e6b7b7;
   }
 
+
   @media screen and (max-width: 505px) {
 
     .developer-name {
@@ -65,6 +66,7 @@ export const FooterStyled = styled.footer`
       font-size: 1.4rem;
     }
   }
+
 
   @media screen and (max-width: 440px) {
 
@@ -84,6 +86,7 @@ export const FooterStyled = styled.footer`
       font-size: 1.6rem;
     }
   }
+
 
   @media screen and (max-width: 380px) {
 

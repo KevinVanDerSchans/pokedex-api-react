@@ -1,25 +1,27 @@
 import { Dispatch, FC, SetStateAction } from 'react';
 import PaginationBtn from '../PaginationBtn/PaginationBtn';
 import { PaginationStyled } from './PaginationStyled';
+import SearchBar from '../SearchBar/SearchBar';
+
 import {
   MdKeyboardArrowLeft,
   MdKeyboardArrowRight,
   MdKeyboardDoubleArrowLeft,
   MdKeyboardDoubleArrowRight,
 } from 'react-icons/md';
-import SearchBar from '../SearchBar/SearchBar';
 
 interface Props {
   setPage: Dispatch<SetStateAction<number>>;
   setLimit: Dispatch<SetStateAction<number>>;
   page: number;
   maxPages: number;
-}
+};
 
 const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
   const buttonNumbers = [page - 2, page - 1, page, page + 1, page + 2];
 
   return (
+
     <PaginationStyled page={page}>
       <ul className="buttons">
         <PaginationBtn

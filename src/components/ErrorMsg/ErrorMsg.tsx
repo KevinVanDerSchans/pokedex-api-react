@@ -27,6 +27,7 @@ const ErrorStyled = styled.article`
 
 const ErrorMsg = () => {
   return (
+
     <ErrorStyled>
       <img className="error-img" src="/pokemon-error.png" alt="Error" />
       <p className='error-text'>404 in the Pokedex. Try again later...</p>

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export interface Props {
   pokemon: Pokemon;
-}
+};
 
 const PokeCard: FC<Props> = ({ pokemon }) => {
   const { name, id, imgUrl, type1, type2 } = pokemon;

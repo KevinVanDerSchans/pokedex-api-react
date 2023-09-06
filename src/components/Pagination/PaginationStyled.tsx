@@ -67,6 +67,7 @@ export const PaginationStyled = styled.section<StyledProps>`
     }
   }
 
+
   @media (max-width: 830px) {
 
     flex-direction: row;
