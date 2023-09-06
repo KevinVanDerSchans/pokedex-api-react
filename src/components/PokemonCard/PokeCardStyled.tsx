@@ -17,6 +17,7 @@ export const CardStyled = styled.article<Props>`
   border-radius: 20px;
   border: 2px solid #ced4da;
   border-radius: 15px;
+  margin-bottom: 1rem;
 
     &:hover {
       transform: scale(1.05);
@@ -45,7 +46,7 @@ export const CardStyled = styled.article<Props>`
       visibility: ${(props) =>
         props.pokemon.id < 10000 ? `visible` : 'hidden'};
       cursor: default;
-  }
+    }
   }
 
   .pokemon-img {
@@ -57,6 +58,7 @@ export const CardStyled = styled.article<Props>`
     display: flex;
     align-items: center;
   }
+
 
   @media (max-width: 769px) {
     width: 170px;

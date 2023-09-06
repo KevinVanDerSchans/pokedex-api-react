@@ -5,7 +5,6 @@ import { SearchBarStyled } from './SearchBarStyled';
 const SearchBar = () => {
 
   const audioUrlFilter = '/assets/level-up.mp3';
-
   const audioUrlSearch = '/assets/recovery.mp3';
 
   const playAudioFilter = () => {

@@ -2,6 +2,7 @@ import { FC } from 'react';
 import styled from 'styled-components';
 import { pokeType } from '../../models/pokemon.model';
 
+
 const TypeStyled = styled.div<Props>`
   width: 50px;
   height: 50px;
@@ -23,4 +24,4 @@ const PokeType: FC<Props> = ({ type }) => {
   return <TypeStyled data-testid="type" type={type}></TypeStyled>
 };
 
-export default PokeType
+export default PokeType;

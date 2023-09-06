@@ -1,10 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { HeaderStyled } from "./HeaderStyled";
 import { useState } from "react";
 import Button from "react-bootstrap/esm/Button";
 import { FaPlay, FaStop } from "react-icons/fa";
-
 
 const Header = () => {
 
@@ -12,7 +10,7 @@ const Header = () => {
 
   const toggleShowGifs = () => {
     setShowGifs(!showGifs)
-  }
+  };
 
   return (
 
@@ -26,7 +24,7 @@ const Header = () => {
                 onClick={toggleShowGifs}
                 className="danceBtn"
             >
-                {showGifs ? "Use Rest attack... " : "Use Dance attack ! "}
+                {showGifs ? "Use REST attack... " : "Use DANCE attack ! "}
                 {showGifs ? <FaStop size={15} /> : <FaPlay size={15} />}
             </Button>
           </div>

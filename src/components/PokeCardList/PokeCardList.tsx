@@ -15,15 +15,15 @@ const CardListStyled = styled.ul`
   justify-items: center;
   gap: 1.5rem;
 
-
-`
+  @media (max-width: 475px) {
+    padding-top: 140px;
+  }
+`;
 
 const PokeCardList: FC<Props> = ({ pokemons }) => {
   return (
+
     <CardListStyled>
-
-
-
       {pokemons?.map((pokemon) => (
         <li key={pokemon.id}>
           <PokeCard pokemon={pokemon} />
@@ -34,4 +34,4 @@ const PokeCardList: FC<Props> = ({ pokemons }) => {
   );
 };
 
-export default PokeCardList
+export default PokeCardList;

@@ -7,7 +7,6 @@ export const HeaderStyled = styled.header`
   min-height: 14em;
   justify-content: center;
   align-items: center;
-
   background-image: url('/pokeball-background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +92,7 @@ export const HeaderStyled = styled.header`
   }
 
 
-   @media (max-width: 990px) {
+  @media (max-width: 990px) {
 
     .logo-container {
       position: relative;
@@ -137,6 +136,7 @@ export const HeaderStyled = styled.header`
     }
   }
 
+
   @media (max-width: 990px) {
 
     .logo-container {
@@ -166,6 +166,7 @@ export const HeaderStyled = styled.header`
       font-size: 0.8rem;
     }
   }
+
 
   @media (max-width: 660px) {
 
@@ -200,9 +201,10 @@ export const HeaderStyled = styled.header`
     }
 
     .pokemon-dancing-img {
-    width: 90px;
+      width: 90px;
+    }
   }
-  }
+
 
   @media (max-width: 530px) {
 
@@ -238,6 +240,7 @@ export const HeaderStyled = styled.header`
     }
   }
 
+
   @media (max-width: 500px) {
 
     .logo-container {
@@ -272,6 +275,7 @@ export const HeaderStyled = styled.header`
       font-size: 0.7rem;
     }
   }
+
 
   @media (max-width: 434px) {
 

@@ -45,7 +45,7 @@ export const PokeCardDetailStyled = styled.article<Props>`
       visibility: ${(props) =>
         props.pokemon.id < 10000 ? `visible` : 'hidden'};
       cursor: default;
-  }
+    }
   }
 
   .pokemon-details {
@@ -69,7 +69,20 @@ export const PokeCardDetailStyled = styled.article<Props>`
     }
   }
 
-  @media (max-width: 426px) {
+
+  @media (max-width: 715px) {
+
+    width: 340px;
+
+    .pokemon-info .pokemon-name {
+      font-size: 2rem;
+      max-width: 150px;
+      margin-left: 0.4rem;
+    }
+
+    .pokemon-info .pokemon-id {
+      font-size: 1.4rem;
+    }
 
     .pokemon-details {
       flex-direction: column;

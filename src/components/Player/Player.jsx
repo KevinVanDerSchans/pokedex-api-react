@@ -40,7 +40,7 @@ const playList = [
     img: '/player-pokeball.jpg',
     src: '/assets/games.mp3',
   }
-]
+];
 
 const mobileUI = {
   all: false,

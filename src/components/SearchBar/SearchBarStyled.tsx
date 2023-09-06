@@ -214,6 +214,7 @@ export const SearchBarStyled = styled.section`
     }
   }
 
+
   @media (max-width: 1192px) {
 
     .searchers-container {
@@ -296,6 +297,7 @@ export const SearchBarStyled = styled.section`
     }
   }
 
+
   @media (max-width: 475px) {
 
     .searchers-container {
@@ -366,9 +368,7 @@ export const SearchBarStyled = styled.section`
 
     select {
       font-size: 1.1rem;
-
       margin-right: 0.8rem;
-      cursor: pointer;
     }
 
     option {

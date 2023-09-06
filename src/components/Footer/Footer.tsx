@@ -2,10 +2,10 @@ import {
   AiFillLinkedin,
   AiFillGithub
 } from "react-icons/ai";
-
 import { BiSolidUser } from "react-icons/bi";
 
 import { FooterStyled } from "./FooterStyled";
+
 
 const Footer = () => {
   return (

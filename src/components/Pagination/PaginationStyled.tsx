@@ -67,6 +67,7 @@ export const PaginationStyled = styled.section<StyledProps>`
     }
   }
 
+
   @media (max-width: 830px) {
 
     flex-direction: row;
@@ -97,6 +98,7 @@ export const PaginationStyled = styled.section<StyledProps>`
 
     flex-direction: column;
     gap: 20px;
+    padding: 0;
 
     .results {
       position: absolute;
@@ -175,9 +177,8 @@ export const PaginationStyled = styled.section<StyledProps>`
       gap: 0.5rem;
 
       select {
-        width: 3rem;
         font-size: 0.8rem;
-        padding: 4px 4px;
+        padding: 4px 6px;
         border-radius: 15px;
         background-color: #cc4e4e;
         color: #fff;

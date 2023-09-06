@@ -22,6 +22,7 @@ const ButtonToHomePageStyled = styled.div`
 
 const ButtonToHomePage = () => {
   return (
+
     <ButtonToHomePageStyled>
     <Link to={'/'}>
       <button className="button-to-home-page">
@@ -29,7 +30,7 @@ const ButtonToHomePage = () => {
       </button>
     </Link>
     </ButtonToHomePageStyled>
-  )
-}
+  );
+};
 
 export default ButtonToHomePage;
