@@ -293,7 +293,7 @@ export const HeaderStyled = styled.header`
 
     .danceButtonContainer {
       position: relative;
-      top: 105px;
+      top: 98px;
       right: 4px;
     }
 
