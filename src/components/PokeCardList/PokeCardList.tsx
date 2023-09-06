@@ -16,7 +16,7 @@ const CardListStyled = styled.ul`
   gap: 1.5rem;
 
   @media (max-width: 475px) {
-    padding-top: 120px;
+    padding-top: 60px;
   }
 `;
 

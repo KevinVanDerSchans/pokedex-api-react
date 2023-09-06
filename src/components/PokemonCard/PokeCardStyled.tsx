@@ -61,22 +61,22 @@ export const CardStyled = styled.article<Props>`
 
 
   @media (max-width: 769px) {
-    width: 170px;
-    height: 250px;
+    width: 220px;
+    height: 300px;
 
     .pokemon-img {
-      min-width: 80px;
-      max-height: 100px;
+      min-width: 120px;
+      max-height: 150px;
     }
 
     .pokemon-info {
 
       .pokemon-name {
-        font-size: small;
+        font-size: 1.4rem;
       }
 
       .pokemon-id {
-        font-size: smaller;
+        font-size: 1rem;
       }
     }
   }
