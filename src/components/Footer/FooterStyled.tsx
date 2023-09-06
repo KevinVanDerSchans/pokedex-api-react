@@ -71,6 +71,7 @@ export const FooterStyled = styled.footer`
 
     .developer-name {
       font-size: 1rem;
+      font-weight: 700;
     }
 
     .linkedin-logo,

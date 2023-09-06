@@ -28,7 +28,7 @@ export const PaginationStyled = styled.section<StyledProps>`
 
       select {
         font-size: 1rem;
-        padding: 4px 6px;
+        padding: 8px 6px;
         border-radius: 15px;
         background-color: #a15c5c;
         color: #fff;
@@ -57,7 +57,7 @@ export const PaginationStyled = styled.section<StyledProps>`
         width: 34px;
         border: none;
         border-radius: 50%;
-        padding: 9px;
+        padding: 10px;
         background-color: transparent;
         font-weight: 700;
         cursor: pointer;
@@ -130,7 +130,7 @@ export const PaginationStyled = styled.section<StyledProps>`
       select {
         width: 3.4rem;
         font-size: 1rem;
-        padding: 6px 6px;
+        padding: 4px 6px;
         border-radius: 15px;
         font-weight: 700;
       }

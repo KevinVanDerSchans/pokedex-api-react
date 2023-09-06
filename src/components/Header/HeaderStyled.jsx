@@ -301,6 +301,7 @@ export const HeaderStyled = styled.header`
       width: 7em;
       padding: 6px;
       font-size: 0.8rem;
+      font-weight: 700;
     }
 
     .gifContainer {
