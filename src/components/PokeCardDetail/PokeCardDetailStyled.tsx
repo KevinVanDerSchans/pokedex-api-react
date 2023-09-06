@@ -37,7 +37,6 @@ export const PokeCardDetailStyled = styled.article<Props>`
       font-size: 2.4rem;
       max-width: 150px;
       margin-left: 0.4rem;
-      cursor: default;
     }
 
     .pokemon-id {
@@ -45,7 +44,6 @@ export const PokeCardDetailStyled = styled.article<Props>`
       margin-right: 0.4rem;
       visibility: ${(props) =>
         props.pokemon.id < 10000 ? `visible` : 'hidden'};
-      cursor: default;
     }
   }
 
@@ -55,7 +53,6 @@ export const PokeCardDetailStyled = styled.article<Props>`
     width: 100%;
     justify-content: space-evenly;
     font-size: 1.4rem;
-    cursor: default;
 
     .pokemon-img {
       width: 300px;

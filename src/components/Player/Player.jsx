@@ -6,7 +6,6 @@ const playList = [
   {
     id: 1,
     name: 'Opening',
-    writer: '(R/S/E)',
     img: '/player-pokeball.jpg',
     src: '/assets/opening.mp3',
   },
@@ -36,7 +35,7 @@ const playList = [
   },
   {
     id: 6,
-    name: 'Games',
+    name: 'Games intro',
     img: '/player-pokeball.jpg',
     src: '/assets/games.mp3',
   }

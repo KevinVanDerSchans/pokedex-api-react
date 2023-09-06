@@ -31,7 +31,7 @@ export const SearchBarStyled = styled.section`
 
   .input-button-search:hover,
   .input-button-filter:hover {
-    background-color: #817e7e;
+    background-color: #de1e1e;
   }
 
   .input-button-filter:hover {
@@ -41,7 +41,7 @@ export const SearchBarStyled = styled.section`
   .search-text-placeholder {
     font-size: 1.2rem;
     padding: 0.2rem;
-    cursor: default;
+    cursor: text;
   }
 
   .search-text-placeholder::placeholder {
@@ -59,7 +59,7 @@ export const SearchBarStyled = styled.section`
 
     .form-input-container {
       padding: 0.5rem 1rem;
-      background-color: #424141;
+      background-color: #424241;
       box-shadow: 0 3px 15px 0 rgba(21, 21, 22, 0.37);
       border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.18);

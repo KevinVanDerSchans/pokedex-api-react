@@ -281,7 +281,7 @@ export const HeaderStyled = styled.header`
 
     .logo-container {
       position: relative;
-      right: 84px;
+      right: 54px;
       bottom: 10px;
       padding: 0;
     }
@@ -292,13 +292,15 @@ export const HeaderStyled = styled.header`
     }
 
     .danceButtonContainer {
+      position: relative;
       top: 105px;
+      right: 4px;
     }
 
     .danceBtn {
-      width: 9em;
+      width: 7em;
       padding: 6px;
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
 
     .gifContainer {
@@ -308,15 +310,11 @@ export const HeaderStyled = styled.header`
       width: 100%;
       justify-content: center;
       align-items: center;
-      gap: 220px;
+      gap: 210px;
     }
 
     .pokemon-dancing-img {
       width: 90px;
-    }
-
-    .danceButtonContainer {
-      top: 94px;
     }
   }
 

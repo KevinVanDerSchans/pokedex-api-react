@@ -39,14 +39,12 @@ export const CardStyled = styled.article<Props>`
       font-style: italic;
       text-transform: capitalize;
       max-width: 150px;
-      cursor: default;
     }
 
     .pokemon-id {
       font-size: 1.2rem;
       visibility: ${(props) =>
         props.pokemon.id < 10000 ? `visible` : 'hidden'};
-      cursor: default;
     }
   }
 

@@ -3,11 +3,13 @@ import styled from 'styled-components';
 const LoadingStyled = styled.div`
 
   text-align: center;
+  height: 90vh;
 
   .loading-text {
     padding-top: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: bold;
+    color: #f0f0ec;
   }
 
 
@@ -30,8 +32,8 @@ const Loading = () => {
 
     <LoadingStyled>
       <div className='loading-container'>
-        <img className="loading-img" width={300} src="/assets/pokemon-loading.gif" alt="Loading" />
-        <p className='loading-text'>Charmander is looking for the data...</p>
+        <img className="loading-img" width={120} src="/assets/pokemon-loading.gif" alt="Loading" />
+        <p className='loading-text'>Loading...</p>
       </div>
     </LoadingStyled>
   );
