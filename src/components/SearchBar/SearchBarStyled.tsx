@@ -94,7 +94,6 @@ export const SearchBarStyled = styled.section`
 
     select {
       font-size: 1.1rem;
-
       margin-right: 0.8rem;
       cursor: pointer;
     }
@@ -304,7 +303,7 @@ export const SearchBarStyled = styled.section`
       display: flex;
       position: relative;
       margin-right: 50px;
-      gap: 60px;
+      gap: 70px;
     }
 
     .input-button-search,

@@ -72,11 +72,11 @@ export const CardStyled = styled.article<Props>`
     .pokemon-info {
 
       .pokemon-name {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
       }
 
       .pokemon-id {
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     }
   }
