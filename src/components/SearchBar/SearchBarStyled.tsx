@@ -219,6 +219,7 @@ export const SearchBarStyled = styled.section`
 
     .searchers-container {
       position: relative;
+      top: 30px;
       left: 10px;
       gap: 0;
       padding: 0;
@@ -231,11 +232,10 @@ export const SearchBarStyled = styled.section`
 
     .searchers-container {
       position: relative;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       top: 20px;
-      left: 0px;
-      gap: 4px;
+      left: 20px;
       padding-right: 50px;
       margin: 0;
     }
@@ -302,7 +302,8 @@ export const SearchBarStyled = styled.section`
 
     .searchers-container {
       display: flex;
-      flex-direction: row;
+      position: relative;
+      margin-right: 50px;
       gap: 60px;
     }
 
