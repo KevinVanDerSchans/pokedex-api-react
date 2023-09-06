@@ -235,7 +235,7 @@ export const SearchBarStyled = styled.section`
       top: 20px;
       left: 0px;
       gap: 4px;
-      padding-right: 10px;
+      padding-right: 50px;
       margin: 0;
     }
 
@@ -298,13 +298,86 @@ export const SearchBarStyled = styled.section`
 
   @media (max-width: 475px) {
 
+
     .searchers-container {
       display: flex;
-      position: absolute;
+      position: relative;
+      top: 94px;
       flex-direction: row;
-      right: 40px;
-      padding-top: 100px;
-      gap: 0;
+      width: 100%;
+      gap: 40px;
     }
+
+    .input-button-search,
+    .input-button-filter {
+      width: 50px;
+      height: 40px;
+      padding: 0.3rem;
+  }
+
+  .search-text-placeholder {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+  }
+
+  .search-text-placeholder::placeholder {
+    font-size: 1rem;
+    font-family: inherit;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    gap: 6px;
+
+    .form-input-container {
+      padding: 0.2rem 0.4rem;
+      background-color: #424141;
+      box-shadow: 0 3px 15px 0 rgba(21, 21, 22, 0.37);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .form-input-container:hover {
+      background-color: #212121;
+    }
+
+    input {
+      width: 100px;
+      cursor: default;
+    }
+
+    input,
+    button,
+    select {
+      font-size: 0.9rem;
+      background-color: transparent;
+      border: 0;
+      color: #f5f3f3;
+      font-family: inherit;
+
+      :focus {
+        outline: none;
+      }
+      ::placeholder {
+        color: #e5dfdf;
+        font-size: 1rem;
+      }
+    }
+
+    select {
+      font-size: 1.1rem;
+
+      margin-right: 0.8rem;
+      cursor: pointer;
+    }
+
+    option {
+      background-color: #cc4e4e;
+      color: #e0dcdc;
+    }
+  }
   }
 `;
