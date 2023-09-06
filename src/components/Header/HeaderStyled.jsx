@@ -277,7 +277,8 @@ export const HeaderStyled = styled.header`
 
     .logo-container {
       position: relative;
-      right: 90px;
+      right: 84px;
+      bottom: 10px;
       padding: 0;
     }
 

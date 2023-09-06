@@ -26,10 +26,10 @@ export const FooterStyled = styled.footer`
   .social-media-footer-container {
     display: flex;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 24px;
     margin: 2px 30px 0 0;
-    gap: 0.4rem;
+    gap: 0.6rem;
   }
 
   .linkedin-logo,
@@ -70,19 +70,19 @@ export const FooterStyled = styled.footer`
   @media screen and (max-width: 440px) {
 
     .developer-name {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
 
     .linkedin-logo,
     .github-logo,
     .user-logo {
       position: relative;
-      top: 5.4px;
-      left: 1.4rem;
+      margin: 0;
+      top: 0;
+      left: 40px;
       height: 100%;
       align-items: center;
-      font-size: 1.4rem;
-
+      font-size: 2rem;
     }
   }
 
