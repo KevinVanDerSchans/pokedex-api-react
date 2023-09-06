@@ -12,6 +12,13 @@ const Header = () => {
     setShowGifs(!showGifs)
   };
 
+  const audioGameboy = '/assets/gameboy.mp3'
+
+  const playAudioGameboy = () => {
+    const audio = new Audio(audioGameboy);
+    audio.play();
+  };
+
   return (
 
     <HeaderStyled>
@@ -31,8 +38,8 @@ const Header = () => {
         </div>
 
         <div className="logo-container">
-          <Link to={'/'}>
-            <img src="/pokemon-logo.svg" className="pokemon-logo" alt="Pokemon Logo" />
+          <Link onClick={playAudioGameboy} to={'/'}>
+            <img  src="/pokemon-logo.svg" className="pokemon-logo" alt="Pokemon Logo" />
           </Link>
         </div>
 
@@ -43,7 +50,7 @@ const Header = () => {
             </div>
 
             <div className="dancingPokemonContainer">
-              <img className="pokemon-dancing-img" id="pikaGif" src="/assets/dance2.gif" alt="Pokemon dancing" />
+              <img className="pokemon-dancing-img" id="pikaGif" src="/assets/dance3.gif" alt="Pokemon dancing" />
             </div>
           </div>
         )}

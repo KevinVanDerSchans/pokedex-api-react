@@ -10,7 +10,7 @@ export const FooterStyled = styled.footer`
   align-items: center;
   padding: 4px 0;
   color: #1e1d1d;
-  background-color: #efc178;
+  background-color: #c47979;
   overflow: hidden;
 
   .text-footer-container {
@@ -20,7 +20,6 @@ export const FooterStyled = styled.footer`
   .developer-name {
     font-size: 1.4rem;
     font-weight: 400;
-    cursor: default;
   }
 
   .social-media-footer-container {

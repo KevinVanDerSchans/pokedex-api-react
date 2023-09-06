@@ -21,11 +21,19 @@ const ButtonToHomePageStyled = styled.div`
 `
 
 const ButtonToHomePage = () => {
+
+  const audioClickButton = '/assets/click.mp3'
+
+  const playAudioClickButton = () => {
+    const audio = new Audio(audioClickButton);
+    audio.play();
+  };
+
   return (
 
     <ButtonToHomePageStyled>
     <Link to={'/'}>
-      <button className="button-to-home-page">
+      <button onClick={playAudioClickButton} className="button-to-home-page">
         Back to HOME
       </button>
     </Link>

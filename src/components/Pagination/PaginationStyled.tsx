@@ -40,7 +40,6 @@ export const PaginationStyled = styled.section<StyledProps>`
         }
         :disabled:not(.arrow, .active) {
           color: transparent;
-          cursor: default;
         }
         :hover:not(.active, :disabled) {
           background: #cfa0a0;
