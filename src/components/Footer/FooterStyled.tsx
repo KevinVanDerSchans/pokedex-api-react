@@ -9,8 +9,8 @@ export const FooterStyled = styled.footer`
   justify-content: center;
   align-items: center;
   padding: 4px 0;
-  color: rgb(192, 186, 186);
-  background-color: rgb(80, 79, 79);
+  color: #1e1d1d;
+  background-color: #efc178;
   overflow: hidden;
 
   .text-footer-container {
@@ -38,14 +38,14 @@ export const FooterStyled = styled.footer`
     position: relative;
     bottom: 0;
     left: 1rem;
-    color: rgb(232, 228, 228);
+    color: #1e1d1d;
     font-size: 2.2rem;
   }
 
   .linkedin-logo:hover,
   .github-logo:hover,
   .user-logo:hover {
-    color: #e6b7b7;
+    color: #898787;
   }
 
 

@@ -19,9 +19,10 @@ export const PokeCardDetailStyled = styled.article<Props>`
   max-width: 768px;
   text-transform: capitalize;
   background: rgba(255, 255, 255, 0.35);
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px , rgba(204, 204, 204, 0.5) -3px -3px 6px 1px ;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-box-shadow: 3px 6px 13px -1px rgba(11, 11, 11, 0.84);
+  box-shadow: 3px 6px 13px -1px rgba(7, 7, 7, 0.84);
 
   .pokemon-info {
     display: flex;
@@ -29,7 +30,7 @@ export const PokeCardDetailStyled = styled.article<Props>`
     align-items: center;
     padding: 5px 15px;
     justify-content: space-between;
-    background-color: #f6ebea;
+    background-color: #e4a59f;
     border-radius: 10px;
 
     .pokemon-name {

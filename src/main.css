@@ -9,7 +9,9 @@
 html,
 body {
   font-family: 'Pocket Monk', 'Courier New', Courier, monospace, sans-serif;
-  background: #fff;
+  background-image: url('/background-red.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-x: hidden;
   scroll-behavior: smooth ;
 }

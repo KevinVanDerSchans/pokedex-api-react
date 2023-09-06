@@ -5,6 +5,7 @@ interface StyledProps {
 };
 
 export const PaginationStyled = styled.section<StyledProps>`
+
   width: fit-content;
   display: flex;
   margin: 0 auto;
@@ -12,6 +13,10 @@ export const PaginationStyled = styled.section<StyledProps>`
   padding: 0 2.2rem;
   align-items: center;
   margin: 1rem 0 2rem;
+
+  .results-label {
+    color: #e6e5e5;
+  }
 
   .buttons {
     width: fit-content;
@@ -42,10 +47,14 @@ export const PaginationStyled = styled.section<StyledProps>`
         }
       }
       .active {
-        background-color: #cc4e4e;
+        background-color: #d69898;
         color: #202020;
         outline: none;
       }
+    }
+
+    label select {
+      background-color: white;
     }
 
 
@@ -62,6 +71,7 @@ export const PaginationStyled = styled.section<StyledProps>`
       }
 
       .results-label {
+        color: #e1dddd;
         font-size: 0.4rem;
       }
     }
@@ -74,6 +84,7 @@ export const PaginationStyled = styled.section<StyledProps>`
     justify-content: space-between;
 
     .results {
+      color: white;
       display: flex;
       position: relative;
       justify-content: left;
@@ -118,8 +129,6 @@ export const PaginationStyled = styled.section<StyledProps>`
         font-size: 0.4rem;
         padding: 6px 6px;
         border-radius: 15px;
-        background-color: #cc4e4e;
-        color: #fff;
         font-weight: 700;
       }
 
@@ -159,7 +168,7 @@ export const PaginationStyled = styled.section<StyledProps>`
   }
 
   .arrow-icon {
-    color: #000000;
+    color: #d7d5d5;
     font-size: 1rem;
     font-weight: 900;
   }
@@ -180,7 +189,7 @@ export const PaginationStyled = styled.section<StyledProps>`
         font-size: 0.8rem;
         padding: 4px 6px;
         border-radius: 15px;
-        background-color: #cc4e4e;
+        background-color: #a15c5c;
         color: #fff;
         font-weight: 700;
       }
