@@ -75,6 +75,7 @@ export function Player() {
       <AudioPlayer
         className="player"
         playList={playList}
+        autoPlay={true}
         activeUI={screenWidth < 700 ? mobileUI : {
           all: true,
           progress: "waveform",

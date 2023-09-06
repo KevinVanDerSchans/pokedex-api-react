@@ -14,6 +14,33 @@ export const PaginationStyled = styled.section<StyledProps>`
   align-items: center;
   margin: 1rem 0 2rem;
 
+  .results {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-left: 0.4rem;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      select {
+        font-size: 1rem;
+        padding: 4px 6px;
+        border-radius: 15px;
+        background-color: #a15c5c;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      option {
+        border-radius: 15px;
+      }
+    }
+  }
+
   .results-label {
     color: #e6e5e5;
   }
@@ -58,6 +85,11 @@ export const PaginationStyled = styled.section<StyledProps>`
 
 
     @media (max-width: 905px) {
+
+      .results {
+        position: relative;
+      }
+
       li {
         button {
           position: relative;
@@ -77,47 +109,19 @@ export const PaginationStyled = styled.section<StyledProps>`
   }
 
 
-  @media (max-width: 830px) {
-
-    flex-direction: row;
-    justify-content: space-between;
-
-    .results {
-      color: white;
-      display: flex;
-      position: relative;
-      justify-content: left;
-      padding-left: 1rem;
-    }
-
-    .buttons {
-      display: flex;
-      position: relative;
-      margin: 0px 0 0 10px;
-      top: 50px;
-    }
-
-    .searchBarContainer {
-      display: flex;
-      justify-content: right;
-    }
-  }
-
-
-  @media (max-width: 475px) {
+  @media (max-width: 875px) {
 
     flex-direction: column;
     gap: 20px;
     padding: 0;
 
     .results {
-      position: absolute;
+      position: relative;
       display: flex;
       align-items: center;
       font-size: 1rem;
       margin-left: 0.4rem;
-      position: relative;
-      top: 400px;
+
 
     label {
       display: flex;
@@ -125,7 +129,7 @@ export const PaginationStyled = styled.section<StyledProps>`
 
       select {
         width: 3.4rem;
-        font-size: 0.4rem;
+        font-size: 1rem;
         padding: 6px 6px;
         border-radius: 15px;
         font-weight: 700;
@@ -170,32 +174,5 @@ export const PaginationStyled = styled.section<StyledProps>`
     color: #d7d5d5;
     font-size: 1rem;
     font-weight: 900;
-  }
-
-  .results {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    margin-left: 0.4rem;
-
-    label {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-
-      select {
-        font-size: 0.8rem;
-        padding: 4px 6px;
-        border-radius: 15px;
-        background-color: #a15c5c;
-        color: #fff;
-        font-weight: 700;
-      }
-
-      option {
-        border-radius: 15px;
-      }
-    }
   }
 `;

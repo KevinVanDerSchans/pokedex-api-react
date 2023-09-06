@@ -19,6 +19,7 @@ export const CardStyled = styled.article<Props>`
   margin-bottom: 1rem;
   -webkit-box-shadow: 3px 6px 13px -1px rgba(11, 11, 11, 0.84);
   box-shadow: 3px 6px 13px -1px rgba(7, 7, 7, 0.84);
+  background-color: #772a35;
 
     &:hover {
       transform: scale(1.05);
