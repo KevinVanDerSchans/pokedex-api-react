@@ -10,7 +10,6 @@ export const CardStyled = styled.article<Props>`
   padding: 8px;
   width: 250px;
   height: 300px;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px , rgba(255, 255, 255, 0.5) -3px -3px 6px 1px ;
   transition: transform 0.3s ease;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
@@ -18,6 +17,8 @@ export const CardStyled = styled.article<Props>`
   border: 2px solid #ced4da;
   border-radius: 15px;
   margin-bottom: 1rem;
+  -webkit-box-shadow: 3px 6px 13px -1px rgba(11, 11, 11, 0.84);
+  box-shadow: 3px 6px 13px -1px rgba(7, 7, 7, 0.84);
 
     &:hover {
       transform: scale(1.05);
@@ -30,7 +31,7 @@ export const CardStyled = styled.article<Props>`
     align-items: center;
     padding: 10px 15px;
     justify-content: space-between;
-    background-color: #f6ebea;
+    background-color: #e4a59f;
     border-radius: 10px;
 
     .pokemon-name {
