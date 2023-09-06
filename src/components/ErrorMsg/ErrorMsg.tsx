@@ -33,7 +33,7 @@ const ErrorStyled = styled.article`
   }
 
   .error-text-container {
-      margin-top: 2rem;
+      margin-top: 0rem;
   }
 
   .error-text {
@@ -51,6 +51,11 @@ const ErrorStyled = styled.article`
     .error-text-container {
       margin-top: 2.4rem;
     }
+
+    .error-text {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
   }
 `;
 
@@ -62,8 +67,9 @@ const ErrorMsg = () => {
         <img width={120} className="error-img" src="/pokemon-error.png" alt="Error" />
 
         <div className='error-text-container'>
-          <p className='error-text'>404 in the Pokedex...</p>
-          <p className='error-text'>Maybe you need to contact <span className='del'>Bill</span> Kevin !</p>
+          <p className='error-text'>404 Pokemon not found...</p>
+          <p className='error-text'>Did you spell the pokemon's name correctly?</p>
+          <p className='error-text'>If you need it, contact <span className='del'>Bill</span> Kevin !</p>
         </div>
       </div>
     </ErrorStyled>
