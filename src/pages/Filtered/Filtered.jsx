@@ -6,6 +6,7 @@ import ErrorMsg from '../../components/ErrorMsg/ErrorMsg';
 import Header from "../../components/Header/Header";
 import { Player } from "../../components/Player/Player";
 import SearchBar from '../../components/SearchBar/SearchBar';
+import Pagination from "../../components/Pagination/Pagination";
 
 const Filtered = () => {
   const { type } = useParams();
@@ -15,8 +16,9 @@ const Filtered = () => {
   return (
     <>
       <Header />
-      <Player />
-      <SearchBar />
+        <Player />
+        <Pagination />
+
         {loading ? (
           <Loading />
         ) : (
