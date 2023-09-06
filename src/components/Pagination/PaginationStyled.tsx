@@ -104,6 +104,8 @@ export const PaginationStyled = styled.section<StyledProps>`
       align-items: center;
       font-size: 1rem;
       margin-left: 0.4rem;
+      position: relative;
+      top: 400px;
 
     label {
       display: flex;
@@ -131,7 +133,8 @@ export const PaginationStyled = styled.section<StyledProps>`
 
     .buttons {
       position: relative;
-      top: 10px;
+      margin: 0;
+      top: 120px;
       left: 20px;
     }
 
