@@ -26,7 +26,7 @@ const Header = () => {
                 onClick={toggleShowGifs}
                 className="danceBtn"
             >
-                {showGifs ? "Use Rest attack... " : "Use Dance attack ! "}
+                {showGifs ? "Use REST attack... " : "Use DANCE attack ! "}
                 {showGifs ? <FaStop size={15} /> : <FaPlay size={15} />}
             </Button>
           </div>

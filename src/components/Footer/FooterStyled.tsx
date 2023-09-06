@@ -63,14 +63,13 @@ export const FooterStyled = styled.footer`
       height: 100%;
       align-items: center;
       font-size: 1.4rem;
-
     }
   }
 
   @media screen and (max-width: 440px) {
 
     .developer-name {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     .linkedin-logo,
@@ -78,11 +77,11 @@ export const FooterStyled = styled.footer`
     .user-logo {
       position: relative;
       margin: 0;
-      top: 0;
+      top: 3px;
       left: 40px;
       height: 100%;
       align-items: center;
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
   }
 

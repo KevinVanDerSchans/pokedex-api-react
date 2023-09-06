@@ -17,6 +17,7 @@ export const CardStyled = styled.article<Props>`
   border-radius: 20px;
   border: 2px solid #ced4da;
   border-radius: 15px;
+  margin-bottom: 1rem;
 
     &:hover {
       transform: scale(1.05);
