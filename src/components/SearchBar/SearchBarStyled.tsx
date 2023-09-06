@@ -298,22 +298,18 @@ export const SearchBarStyled = styled.section`
 
   @media (max-width: 475px) {
 
-
     .searchers-container {
       display: flex;
-      position: relative;
-      top: 94px;
       flex-direction: row;
-      width: 100%;
-      gap: 40px;
+      gap: 60px;
     }
 
     .input-button-search,
     .input-button-filter {
-      width: 50px;
+      width: 60px;
       height: 40px;
       padding: 0.3rem;
-  }
+    }
 
   .search-text-placeholder {
     font-size: 1.2rem;
@@ -338,6 +334,7 @@ export const SearchBarStyled = styled.section`
       box-shadow: 0 3px 15px 0 rgba(21, 21, 22, 0.37);
       border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.18);
+
     }
 
     .form-input-container:hover {
