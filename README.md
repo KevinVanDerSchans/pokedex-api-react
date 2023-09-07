@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img src="public/assets/readme-pokemon.gif" alt="Alex & Melanie Home image" width="750">
+  <img src="public/assets/pokemon-readme.gif" alt="Alex & Melanie Home image" width="750">
 </p>
 
 <br>
