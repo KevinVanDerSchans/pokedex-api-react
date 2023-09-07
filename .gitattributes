@@ -15,4 +15,4 @@ public/assets/team-rocket.mp3 filter=lfs diff=lfs merge=lfs -text
 public/assets/click.mp3 filter=lfs diff=lfs merge=lfs -text
 public/assets/gameboy.mp3 filter=lfs diff=lfs merge=lfs -text
 public/assets/pokemon-loading.gif filter=lfs diff=lfs merge=lfs -text
-public/assets/readme-pokemon.gif filter=lfs diff=lfs merge=lfs -text
+public/assets/pokemon-readme.gif filter=lfs diff=lfs merge=lfs -text
