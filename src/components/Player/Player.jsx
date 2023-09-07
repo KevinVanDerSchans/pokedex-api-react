@@ -56,6 +56,7 @@ const mobileUI = {
 };
 
 export function Player() {
+
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -70,18 +71,18 @@ export function Player() {
 
   return (
     <div className='player-container'>
-    <PlayerStyled>
+      <PlayerStyled>
 
-      <AudioPlayer
-        className="player"
-        playList={playList}
-        autoPlay={true}
-        activeUI={screenWidth < 700 ? mobileUI : {
-          all: true,
-          progress: "waveform",
-        }}
-      />
-    </PlayerStyled>
+        <AudioPlayer
+          className="player"
+          playList={playList}
+          autoPlay={true}
+          activeUI={screenWidth < 700 ? mobileUI : {
+            all: true,
+            progress: "waveform",
+          }}
+        />
+      </PlayerStyled>
     </div>
   );
 };

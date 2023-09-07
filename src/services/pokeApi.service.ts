@@ -5,9 +5,7 @@ import {
   PokemonsPage,
   PokemonResponse,
   PokemonInfo,
-
 } from '../models/pokemon.model'
-
 
 const BASE_URL = 'https://pokeapi.co/api/v2';
 
@@ -36,7 +34,7 @@ export const mapPokemonApiData = (pokemonInfo: PokemonResponse) => {
   };
 
   return pokemon;
-}
+};
 
 export const getPokemonPage = async (page: number = 1, limit: number = 20) => {
   try {
@@ -53,7 +51,7 @@ export const getPokemonPage = async (page: number = 1, limit: number = 20) => {
     };
   } catch (error) {
     return undefined;
-  }
+  };
 };
 
 export const getPokemonsByType = async (type: string | undefined) => {

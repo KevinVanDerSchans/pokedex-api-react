@@ -26,4 +26,5 @@ const usePokemonDetail = (pokemonRef: string | number | undefined) => {
 
   return { loading, pokemon, isFulfilled };
 };
+
 export default usePokemonDetail;

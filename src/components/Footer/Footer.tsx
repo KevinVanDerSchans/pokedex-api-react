@@ -6,9 +6,9 @@ import { BiSolidUser } from "react-icons/bi";
 
 import { FooterStyled } from "./FooterStyled";
 
-
 const Footer = () => {
   return (
+
     <FooterStyled>
       <footer className="footer">
 

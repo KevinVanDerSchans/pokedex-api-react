@@ -1,5 +1,3 @@
-// Poke API
-
 export interface PokemonInfo {
   name: string,
   url: string,
@@ -57,7 +55,6 @@ export interface Type {
 };
 
 
-// Pokemon App
 
 export interface Pokemon {
   id: number,
@@ -99,4 +96,3 @@ export const pokeType = {
   fairy: [2, 5],
   undefined: [0, 0],
 };
-

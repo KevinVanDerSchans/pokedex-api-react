@@ -19,4 +19,5 @@ const usePokemonsByType = (pokemonType: string | undefined) => {
 
   return { loading, pokemons };
 };
+
 export default usePokemonsByType;

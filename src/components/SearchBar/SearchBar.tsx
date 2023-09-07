@@ -33,6 +33,7 @@ const SearchBar = () => {
   };
 
   return (
+
     <SearchBarStyled>
       <div className='searchers-container'>
 
@@ -81,7 +82,7 @@ const SearchBar = () => {
                 className='input-button-search'
                 onClick={playAudioSearch}
               >
-                  SEARCH
+                SEARCH
               </button>
             </div>
           </label>

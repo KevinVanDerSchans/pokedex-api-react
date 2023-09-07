@@ -33,7 +33,7 @@ const ErrorStyled = styled.article`
   }
 
   .error-text-container {
-      margin-top: 0rem;
+    margin-top: 0rem;
   }
 
   .error-text {
@@ -41,6 +41,7 @@ const ErrorStyled = styled.article`
     font-weight: 700;
     margin-top: 1rem;
   }
+
 
   @media (max-width: 430px) {
 

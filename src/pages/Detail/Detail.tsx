@@ -16,6 +16,7 @@ const Detail = () => {
       {isFulfilled
         ? (pokemon && <PokeCardDetail pokemon={pokemon} />) || <ErrorMsg />
         : null}
+
     </DetailStyled>
   );
 };
