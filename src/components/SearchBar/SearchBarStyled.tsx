@@ -21,9 +21,8 @@ export const SearchBarStyled = styled.section`
   .input-button-search,
   .input-button-filter {
     width: 60px;
-    height: 50px;
+    height: 40px;
     border-radius: 20px;
-
     border-radius: 50%;
     background-color: #212020;
     cursor: pointer;
