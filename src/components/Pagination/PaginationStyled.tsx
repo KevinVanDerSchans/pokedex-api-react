@@ -57,24 +57,27 @@ export const PaginationStyled = styled.section<StyledProps>`
         width: 34px;
         border: none;
         border-radius: 50%;
-        padding: 10px;
+        padding: 9px;
         background-color: transparent;
         font-weight: 700;
         cursor: pointer;
+        color: #b8b4b4;
 
         button:hover {
           background: #cfa0a0;
+          color: black;
         }
         :disabled:not(.arrow, .active) {
           color: transparent;
         }
         :hover:not(.active, :disabled) {
-          background: #cfa0a0;
+          background: #da5050;
+
         }
       }
       .active {
         background-color: #d69898;
-        color: #202020;
+        color: #000000;
         outline: none;
         border-radius: 50%;
       }

@@ -2,8 +2,8 @@ import { FC } from 'react';
 import styled from 'styled-components';
 import { pokeType } from '../../models/pokemon.model';
 
-
 const TypeStyled = styled.div<Props>`
+
   width: 50px;
   height: 50px;
   background-image: url('/types.webp');

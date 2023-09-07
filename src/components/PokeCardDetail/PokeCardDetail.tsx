@@ -9,9 +9,11 @@ export interface Props {
 };
 
 const PokeCardDetail: FC<Props> = ({ pokemon }) => {
+
   const { name, id, imgUrl, type1, type2, size, stats } = pokemon;
 
   return (
+
     <DetailStyled>
       <PokeCardDetailStyled pokemon={pokemon}>
         <div className="pokemon-info">

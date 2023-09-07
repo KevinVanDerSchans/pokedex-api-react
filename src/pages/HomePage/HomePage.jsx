@@ -35,6 +35,7 @@ const HomePage = () => {
         ) : (
           (pokemons && <PokeCardList pokemons={pokemons} />) || <ErrorMsg />
         )}
+
         <Footer />
       </HomePageStyled>
     </>

@@ -338,6 +338,7 @@ export const SearchBarStyled = styled.section`
       border-radius: 20px;
       position: relative;
       left: 4px;
+      font-size: 0.9rem;
     }
 
   .search-text-placeholder {
@@ -363,7 +364,6 @@ export const SearchBarStyled = styled.section`
       box-shadow: 0 3px 15px 0 rgba(21, 21, 22, 0.37);
       border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.18);
-
     }
 
     .form-input-container:hover {

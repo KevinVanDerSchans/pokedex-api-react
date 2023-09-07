@@ -12,7 +12,7 @@
 
 ### **_Pokédex_** is a responsive App connected to the Pokémon public API.
 
-### The frontend is built with the **React.js** framework and uses technologies such as **TypeScript**, **React Router**, **JavaScript**, **HTML5**, **styled-components**, Bootstrap and **CSS3**. It is responsible for:
+### The frontend is built with the **React** framework and uses technologies such as **TypeScript**, **React Router**, **JavaScript**, **styled-components**, Bootstrap, **CSS3** and **HTML5**. It is responsible for:
 
 
 - **Intuitive user interface**: The frontend provides an intuitive and easy-to-use user interface for users to interact with the application and view the list of the Pokemon with their respective information.
@@ -81,13 +81,13 @@ The application will be available at [localhost:5173](http://localhost:5173) of 
 
 The ***user*** will be able to:
 
-- See the complete **list** of all Pokemon in the PokéAPI, Where the user can see the name, the id, a GIF and the type it belongs to.
+- See the complete **list** of all Pokemon from the PokéAPI, where the user can see the name, the id, a GIF and the type it belongs to.
 
-- If the user decides to click on any of them, a **Details** page will be dynamically created to display the **details** of the Pokemon. Apart from the data mentioned above, the user will also see the **stats** (weight, height, HP, attack, defense, special-attack, special-defense and speed) and a **button** to return to the Home page.
+- If the user decides to click on any Pokemon, a **Details** page will be dynamically created to display the **details** of the Pokemon. Apart from the data mentioned above, the user will also see the **stats** (weight, height, HP, attack, defense, special-attack, special-defense and speed) and a **button** to return to the Home page.
 
 - Select the **number of items** per page to be displayed in the list (in this case, between 20, 50, 100 and 150 Pokemon).
 
-- **Navigate** through a structured **pagination**.
+- **Navigate** through the structured **pagination** (it has buttons for next page, previous page, next 2 options, previous 2 options, go to the first page and go to the last page).
 
 - **Filter** all Pokemon by **Type**. Among the options, there are: Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost, Steel, Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Dark and Fairy.
 

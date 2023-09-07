@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Props } from './PokeCard';
 
 export const CardStyled = styled.article<Props>`
+
   display: flex;
   flex-direction: column;
   align-items: center;

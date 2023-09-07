@@ -7,7 +7,6 @@ import Header from "../../components/Header/Header";
 import { Player } from "../../components/Player/Player";
 import Pagination from "../../components/Pagination/Pagination";
 
-
 const Filtered = () => {
   const { type } = useParams();
 
@@ -24,7 +23,6 @@ const Filtered = () => {
         ) : (
           (pokemons && <PokeCardList pokemons={pokemons} />) || <ErrorMsg />
         )}
-
     </>
   );
 };

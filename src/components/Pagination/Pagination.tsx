@@ -2,7 +2,6 @@ import { Dispatch, FC, SetStateAction } from 'react';
 import PaginationBtn from '../PaginationBtn/PaginationBtn';
 import { PaginationStyled } from './PaginationStyled';
 import SearchBar from '../SearchBar/SearchBar';
-
 import {
   MdKeyboardArrowLeft,
   MdKeyboardArrowRight,

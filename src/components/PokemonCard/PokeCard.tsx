@@ -9,6 +9,7 @@ export interface Props {
 };
 
 const PokeCard: FC<Props> = ({ pokemon }) => {
+
   const { name, id, imgUrl, type1, type2 } = pokemon;
 
   const audioClickButton = '/assets/click.mp3'
@@ -19,6 +20,7 @@ const PokeCard: FC<Props> = ({ pokemon }) => {
   };
 
   return (
+
     <CardStyled pokemon={pokemon} className='pokemon-card'>
       <div className="pokemon-info">
         <h2 className='pokemon-name'>{name}</h2>
