@@ -29,9 +29,11 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           onClick={() => setPage(0)}
           disabled={page === 0}
           dataTestId="Go to first page"
+          aria-label="Button to navigate through the paging"
         >
           <MdKeyboardDoubleArrowLeft
             className="arrow-icon"
+            aria-label="Button to navigate through the paging"
           />
         </PaginationBtn>
         <PaginationBtn
@@ -39,9 +41,11 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           onClick={() => setPage(page - 1)}
           disabled={page === 0}
           dataTestId="Go to previous page"
+          aria-label="Button to navigate through the paging"
         >
           <MdKeyboardArrowLeft
             className="arrow-icon"
+            aria-label="Button to navigate through the paging"
           />
         </PaginationBtn>
         {buttonNumbers.map((buttonNumber) =>
@@ -51,11 +55,16 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
               disabled={buttonNumber === page}
               className={buttonNumber === page ? 'active' : ''}
               key={buttonNumber}
+              aria-label="Button to navigate through the paging"
             >
               {buttonNumber}
             </PaginationBtn>
           ) : (
-            <PaginationBtn disabled key={buttonNumber}>
+            <PaginationBtn
+              disabled
+              key={buttonNumber}
+              aria-label="Button to navigate through the paging"
+            >
               {buttonNumber}
             </PaginationBtn>
           )
@@ -65,9 +74,11 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           onClick={() => setPage(page + 1)}
           disabled={page === maxPages}
           dataTestId="Go to next page"
+          aria-label="Button to navigate through the paging"
         >
           <MdKeyboardArrowRight
             className="arrow-icon"
+            aria-label="Button to navigate through the paging"
           />
         </PaginationBtn>
         <PaginationBtn
@@ -75,9 +86,11 @@ const Pagination: FC<Props> = ({ setPage, setLimit, page, maxPages }) => {
           onClick={() => setPage(maxPages)}
           disabled={page === maxPages}
           dataTestId="Go to last page"
+          aria-label="Button to navigate through the paging"
         >
           <MdKeyboardDoubleArrowRight
             className="arrow-icon"
+            aria-label="Button to navigate through the paging"
           />
         </PaginationBtn>
       </ul>
