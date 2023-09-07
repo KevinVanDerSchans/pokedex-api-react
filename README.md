@@ -12,7 +12,7 @@
 
 ### **_Pokédex_** is a responsive App connected to the Pokémon public API.
 
-### The frontend is built with the **React.js** framework and uses technologies such as **TypeScript**, **React Router**, **JavaScript**, **HTML**, **Styled Components** and **CSS**. It is responsible for:
+### The frontend is built with the **React.js** framework and uses technologies such as **TypeScript**, **React Router**, **JavaScript**, **HTML5**, **styled-components**, Bootstrap and **CSS3**. It is responsible for:
 
 
 - **Intuitive user interface**: The frontend provides an intuitive and easy-to-use user interface for users to interact with the application and view the list of the Pokemon with their respective information.
