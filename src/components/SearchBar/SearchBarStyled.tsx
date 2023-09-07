@@ -21,12 +21,14 @@ export const SearchBarStyled = styled.section`
   .input-button-search,
   .input-button-filter {
     width: 60px;
-    height: 44px;
+    height: 50px;
+    border-radius: 20px;
+
     border-radius: 50%;
-    padding: 0.3rem;
-    border-radius: 50%;
-    background-color: #7a7777;
+    background-color: #212020;
     cursor: pointer;
+    position: relative;
+    left: 10px;
   }
 
   .input-button-search:hover,
@@ -155,14 +157,23 @@ export const SearchBarStyled = styled.section`
   }
 
 
-  @media (max-width: 1192px) {
+  @media (max-width: 1250px) {
 
     .searchers-container {
       position: relative;
-      left: 42px;
-      gap: 0;
+      left: 0px;
+      gap: 30px;
       padding: 0;
       margin: 0;
+    }
+
+    .input-button-search,
+    .input-button-filter {
+      width: 60px;
+      height: 44px;
+      position: relative;
+      left: 0px;
+      border-radius: 20px;
     }
 
     label {
@@ -218,9 +229,21 @@ export const SearchBarStyled = styled.section`
 
     .searchers-container {
       position: relative;
+      top: 0px;
+      left: 10px;
+      gap: 8px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 875px) {
+
+    .searchers-container {
+      position: relative;
       top: 30px;
       left: 10px;
-      gap: 0;
+      gap: 8px;
       padding: 0;
       margin: 0;
     }
@@ -233,7 +256,7 @@ export const SearchBarStyled = styled.section`
       position: relative;
       flex-direction: row;
       justify-content: center;
-      top: 20px;
+      top: 30px;
       left: 20px;
       padding-right: 50px;
       margin: 0;
@@ -304,6 +327,7 @@ export const SearchBarStyled = styled.section`
       position: relative;
       margin-right: 50px;
       gap: 70px;
+      top: 14px;
     }
 
     .input-button-search,
@@ -311,6 +335,9 @@ export const SearchBarStyled = styled.section`
       width: 60px;
       height: 40px;
       padding: 0.3rem;
+      border-radius: 20px;
+      position: relative;
+      left: 4px;
     }
 
   .search-text-placeholder {

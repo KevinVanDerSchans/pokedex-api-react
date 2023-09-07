@@ -39,7 +39,7 @@ const Header = () => {
 
         <div className="logo-container">
           <Link onClick={playAudioGameboy} to={'/'}>
-            <img  src="/pokemon-logo.svg" className="pokemon-logo" alt="Pokemon Logo" />
+            <img width={'30em'} src="/pokemon-logo.svg" className="pokemon-logo" alt="Pokemon Logo" />
           </Link>
         </div>
 

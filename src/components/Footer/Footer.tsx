@@ -19,15 +19,24 @@ const Footer = () => {
         <div className="social-media-footer-container">
 
           <a href="https://www.linkedin.com/in/kevinvanderschans" target="_blank">
-            <AiFillLinkedin className="linkedin-logo"/>
+            <AiFillLinkedin
+              className="linkedin-logo"
+              aria-label="Icon for LinkedIn's link"
+            />
           </a>
 
           <a href="https://github.com/KevinVanDerSchans" target="_blank">
-            <AiFillGithub className="github-logo"/>
+            <AiFillGithub
+              className="github-logo"
+              aria-label="Icon for Github's link"
+            />
           </a>
 
           <a href="" target="_blank">
-            <BiSolidUser className="user-logo"/>
+            <BiSolidUser
+              className="user-logo"
+              aria-label="Icon for Portfolio's link"
+            />
           </a>
 
         </div>

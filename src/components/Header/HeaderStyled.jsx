@@ -287,7 +287,7 @@ export const HeaderStyled = styled.header`
     }
 
     .pokemon-logo {
-      width: 14em;
+      width: 16em;
       padding: 0;
     }
 
@@ -311,7 +311,7 @@ export const HeaderStyled = styled.header`
       width: 100%;
       justify-content: center;
       align-items: center;
-      gap: 210px;
+      gap: 220px;
     }
 
     .pokemon-dancing-img {
