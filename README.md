@@ -10,12 +10,12 @@
 
 <br>
 
-### **_Pokédex_** is a responsive App connected to the Pokémon public API.
+### **_Pokédex_** is a responsive API Web connected to the Pokémon public API.
 
-### The frontend is built with the **React** framework and uses technologies such as **TypeScript**, **React Router**, **JavaScript**, **styled-components**, Bootstrap, **CSS3** and **HTML5**. It is responsible for:
+### Built with **React**, **TypeScript**, **React Router**, **JavaScript**, **styled-components** and Bootstrap. It is responsible for:
 
 
-- **Intuitive user interface**: The frontend provides an intuitive and easy-to-use user interface for users to interact with the application and view the list of the Pokemon with their respective information.
+- **Intuitive user interface**: provides an intuitive and easy-to-use user interface for users to interact with the application and view the list of the Pokemon with their respective information.
 
 - **Data visualization**: data is displayed in a clear and organized manner, using appropriate components and styles.
 
@@ -49,14 +49,11 @@ Before running this application, make sure you have the following dependencies i
 
 Once you have installed the dependencies, follow these steps to configure the project:
 
-1. Clone the repository: `git clone https://github.com/KevinVanDerSchans/2023-08-Kevin-Schans-PokemonAPI.git`
-<br>
+1. Clone the repository: `git clone https://github.com/KevinVanDerSchans/pokedex-api-react.git`
 
-2. Navigate to the project directory: `cd 2023-08-Kevin-Schans-PokemonAPI`
-<br>
+2. Navigate to the project directory: `cd pokedex-api-react.git`
 
 3. Install dependencies: `npm install`
-<br>
 
 4. Start a development server: `npm run dev`.
 
@@ -104,16 +101,12 @@ The ***user*** will be able to:
 If you want to contribute to this project, follow these steps:
 
 1. Perform a fork to the repository.
-<br>
 
 2. Create a branch for your feature or bugfix: `git checkout -b feature/your-feature-name`
-<br>
 
 3. Make the necessary changes and commits:  `git commit -am 'Add some feature'`
-<br>
 
 4. Push to branch: `git push origin feature/your-feature-name`
-<br>
 
 5. Send a pull request to the original repository.
 
